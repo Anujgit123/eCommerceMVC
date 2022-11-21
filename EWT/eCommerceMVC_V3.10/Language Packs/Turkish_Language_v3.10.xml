@@ -1,0 +1,880 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language>
+    <Resource Key="PP.Menu" Value="Menü" />
+    <Resource Key="PP.Message.Success" Value="Basari!" />
+    <Resource Key="PP.Message.Warning" Value="Uyari!" />
+    <Resource Key="PP.Message.Error" Value="Hata!" />
+    <Resource Key="PP.Message.Thanks" Value="Tesekkürler" />
+    <Resource Key="PP.Message.GenericErrorMessage" Value="Bir hata olustu." />
+    <Resource Key="PP.Message.OK" Value="tamam" />
+    <Resource Key="PP.Header.SearchPlaceholder" Value="Ne ariyorsun?" />
+    <Resource Key="PP.Header.Menu.HiUser" Value="Merhaba {user}!" />
+    <Resource Key="PP.Header.Menu.Account" Value="hesap" />
+    <Resource Key="PP.Header.Menu.Categories" Value="Kategoriler" />
+    <Resource Key="PP.Header.Menu.Home" Value="Ev" />
+    <Resource Key="PP.Header.Menu.Products" Value="Ürünler" />
+    <Resource Key="PP.Header.Menu.Tracking" Value="Takip" />
+    <Resource Key="PP.Header.Menu.Checkout" Value="Çikis yapmak" />
+    <Resource Key="PP.Header.Menu.ShoppingCart" Value="Araba" />
+    <Resource Key="PP.Header.Menu.Dashboard" Value="Gösterge Paneli" />
+    <Resource Key="PP.Header.Menu.Profile" Value="Profil" />
+    <Resource Key="PP.Header.Menu.LogOff" Value="Oturumu Kapat" />
+    <Resource Key="PP.Header.Menu.Login" Value="Oturum aç" />
+    <Resource Key="PP.Footer.Information" Value="Bilgi" />
+    <Resource Key="PP.Footer.Information.AboutUs" Value="Hakkimizda" />
+    <Resource Key="PP.Footer.Information.ContactUs" Value="Bize Ulasin" />
+    <Resource Key="PP.Footer.Information.PrivacyPolicy" Value="Gizlilik Politikasi" />
+    <Resource Key="PP.Footer.Information.RefundPolicy" Value="Geri ödeme politikasi" />
+    <Resource Key="PP.Footer.Information.TermsAndConditions" Value="Sartlar ve kosullar" />
+    <Resource Key="PP.Footer.Account" Value="hesap" />
+    <Resource Key="PP.Footer.Account.MyProfile" Value="Benim profilim" />
+    <Resource Key="PP.Footer.Account.MyOrders" Value="Siparislerim" />
+    <Resource Key="PP.Footer.Account.TrackOrder" Value="Parca siparisi" />
+    <Resource Key="PP.Footer.Account.MyCart" Value="Sepetim" />
+    <Resource Key="PP.Footer.Account.Checkout" Value="Çikis yapmak" />
+    <Resource Key="PP.Footer.NewsLetter" Value="Bizim News Letter katil" />
+    <Resource Key="PP.Footer.NewsLetter.GetOurEmailUpdates" Value="Bizim özel teklifler hakkinda e-posta güncellemeleri alin." />
+    <Resource Key="PP.Footer.NewsLetter.EnterYourEmailPlaceholder" Value="E-posta adresinizi giriniz." />
+    <Resource Key="PP.Footer.NewsLetter.Subscribe" Value="Abone ol" />
+    <Resource Key="PP.Footer.CopyrightsMessage" Value="{application} {date}. Tüm haklari Saklidir." />
+    <Resource Key="PP.Shopping.AddToCart" Value="Sepete ekle" />
+    <Resource Key="PP.Shopping.ViewProduct" Value="Görünüm" />
+    <Resource Key="PP.Shopping.NoProductsInCart" Value="sepetinde yok ürünler." />
+    <Resource Key="PP.Shopping.CartTotal" Value="Sepet Toplam" />
+    <Resource Key="PP.Shopping.CartDetails" Value="Sepet Detaylari" />
+    <Resource Key="PP.Shopping.Checkout" Value="Çikis yapmak" />
+    <Resource Key="PP.Shopping.ItemAddingToCart" Value="Ürünleri alisveris sepetine ekleme" />
+    <Resource Key="PP.Shopping.ItemAddedToCart" Value="Ürün sepetinize eklendi." />
+    <Resource Key="PP.Shopping.CartItemQuantityUpdated" Value="Ürün miktari güncellendi." />
+    <Resource Key="PP.Shopping.ItemNotFound" Value="Ürün bulunamadi." />
+    <Resource Key="PP.Home.Title" Value="ASP .Net MVC e-Ticaret Sitesi" />
+    <Resource Key="PP.Home.Description" Value="Bu demo e-ticaret web sitesi sunucu tarafi programlama dili olarak ASP .Net MVC ve C # ile gelistirilmistir. e-Ticaret buraya özellikleri tüm kontrol edin." />
+    <Resource Key="PP.Home.FeaturedCategories.BrowseCategoryProducts" Value="Göz {category} ürünleri." />
+    <Resource Key="PP.Home.FeaturedCategories.DiscoverMoreProducts" Value="Daha fazlasini kesfet" />
+    <Resource Key="PP.Home.FeaturedCategories.Products.Featured" Value="Öne çikan" />
+    <Resource Key="PP.Home.SearchMoreProducts" Value="Daha Ürünler ara" />
+    <Resource Key="PP.Home.Showcase.FastDelivery" Value="Hizli teslimat" />
+    <Resource Key="PP.Home.Showcase.OnTimeDelivery" Value="Zamaninda% 100 Teslim" />
+    <Resource Key="PP.Home.Showcase.247Support" Value="24/7 Destek" />
+    <Resource Key="PP.Home.Showcase.AlwaysReadyToHelp" Value="Yardim Daima Hazir" />
+    <Resource Key="PP.Home.Showcase.SecurePayments" Value="Güvenli Ödeme" />
+    <Resource Key="PP.Home.Showcase.SecurePaymentOptions" Value="Güvenli Ödeme Seçenekleri" />
+    <Resource Key="PP.Home.Showcase.OurPartners" Value="Ortaklarimiz" />
+    <Resource Key="PP.Search.Title" Value="ara Ürünler {application}" />
+    <Resource Key="PP.Search.TitleWithCategory" Value="{category} tarihli {application} Ürünler ara" />
+    <Resource Key="PP.Search.Description" Value="Bu demo e-ticaret web sitesi sunucu tarafi programlama dili olarak ASP .Net MVC ve C # ile gelistirilmistir. e-Ticaret buraya özellikleri tüm kontrol edin." />
+    <Resource Key="PP.Search.SearchProducts" Value="ürünleri ara" />
+    <Resource Key="PP.Search.SearchProductsPlaceholder" Value="ürünleri ara" />
+    <Resource Key="PP.Search.Categories" Value="Kategoriler" />
+    <Resource Key="PP.Search.Categories.AllCategories" Value="Tüm Kategoriler" />
+    <Resource Key="PP.Search.PriceRange" Value="Fiyat araligi" />
+    <Resource Key="PP.Search.Filter" Value="filtre" />
+    <Resource Key="PP.Search.Reset" Value="Sifirla" />
+    <Resource Key="PP.Search.SortBy" Value="Siralama: {sortby}" />
+    <Resource Key="PP.Search.SortBy.LatestProducts" Value="en son ürünler" />
+    <Resource Key="PP.Search.SortBy.PriceLowToHigh" Value="Fiyat - Yüksek Düsük" />
+    <Resource Key="PP.Search.SortBy.PriceHighToLow" Value="Fiyat pahalidan ucuza" />
+    <Resource Key="PP.Search.ShowNoOfProduct" Value="Göster {number} Ürünler" />
+    <Resource Key="PP.Search.ShowingProductRange" Value="Gösterilenler: {startingIndex} - {endingIndex} / {total}" />
+    <Resource Key="PP.Search.Products.Featured" Value="Öne çikan" />
+    <Resource Key="PP.Search.ProductsNotFound" Value="Afedersiniz! Ürün bulunamadi." />
+    <Resource Key="PP.ProductDetails.AverageRatingCount" Value="Ortalama Puan: {totalComments} yorumlardan {averageRating} Yildiz" />
+    <Resource Key="PP.ProductDetails.ProductStockQuantity" Value="stokta mevcut {quantity}." />
+    <Resource Key="PP.ProductDetails.Description" Value="Açiklama" />
+    <Resource Key="PP.ProductDetails.ProductSpecifications" Value="Ürün Özellikleri" />
+    <Resource Key="PP.ProductDetails.Reviews" Value="yorumlar" />
+    <Resource Key="PP.ProductDetails.Comment" Value="Yorum Yap" />
+    <Resource Key="PP.ProductDetails.Comments" Value="Yorumlar" />
+    <Resource Key="PP.ProductDetails.UserRating" Value="Kullanici Degerlendirmesi: {commentRating}" />
+    <Resource Key="PP.ProductDetails.NoCommentsOnProduct" Value="Bu ürünlerde yorum bulunmamaktadir. üzerinde yorum yapan siz olun." />
+    <Resource Key="PP.ProductDetails.LeaveComment" Value="Yorum Yap" />
+    <Resource Key="PP.ProductDetails.YourRating" Value="Sizin dereceniz" />
+    <Resource Key="PP.ProductDetails.Star" Value="Star" />
+    <Resource Key="PP.ProductDetails.CommentPlaceholder" Value="Yorumunuzu yazin." />
+    <Resource Key="PP.ProductDetails.LeaveYourComment" Value="Yorum birak" />
+    <Resource Key="PP.ProductDetails.LoginToComment" Value="Yorum yapmak için giris yapmalisiniz." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.TextRequired" Value="Geçerli bir yorum eklemek ediniz." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.TextMinLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.TextMaxLength" Value="Maksimum Uzunluk {max}." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.EntityRequired" Value="Yorum türü tespit degil." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.RecordIDRequired" Value="Yorum Tutanak tanimlanmamistir." />
+    <Resource Key="PP.ProductDetails.CommentDeleteWarning" Value="Bu yorumu silmek istediginizden emin misiniz?" />
+    <Resource Key="PP.ProductDetails.CommentDeleteConfirm" Value="Evet, sil!" />
+    <Resource Key="PP.ProductDetails.CommentDeleteCancel" Value="No, Dont silin." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.NotAuthorizedToDeleteComment" Value="Bu yorumu silmek authorzed degildir." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.UnableToDeleteComment" Value="yorumunu silinemedi." />
+    <Resource Key="PP.ProductDetails.FeaturedProducts" Value="Özel Ürünler" />
+    <Resource Key="PP.ProductDetails.RelatedProducts" Value="ilgili ürünler" />
+    <Resource Key="PP.ProductDetails.RelatedProductsFeatured" Value="Öne çikan" />
+    <Resource Key="PP.Tracking.Title" Value="Parca siparisi" />
+    <Resource Key="PP.Tracking.Description" Value="Eger siparisin durumunu kontrol edebilirsiniz. Siparis kimligini girin ve siparis ile ilgili bilgi dönülecektir." />
+    <Resource Key="PP.Tracking.OrderID" Value="Siparis Kimligi" />
+    <Resource Key="PP.Tracking.OrderIDPlaceholder" Value="parçaya Siparis kimligini girin" />
+    <Resource Key="PP.Tracking.TrackOrder" Value="Parca siparisi" />
+    <Resource Key="PP.Tracking.OrderPlacedSuccessMessage" Value="Tesekkür ederim. Siparisiniz alindi. Sen profilinde siparisleriniz bölümünde siparis ayrintilari istedikleri zaman gelebilirler." />
+    <Resource Key="PP.Tracking.PrintInvoice" Value="Fatura yazdir" />
+    <Resource Key="PP.Tracking.OrderStatus" Value="Siparis durumu" />
+    <Resource Key="PP.Tracking.OrderStatus.Placed" Value="yerlestirilmis" />
+    <Resource Key="PP.Tracking.OrderStatus.Processing" Value="Isleme" />
+    <Resource Key="PP.Tracking.OrderStatus.Delivered" Value="teslim" />
+    <Resource Key="PP.Tracking.OrderStatus.Failed" Value="Basarisiz oldu" />
+    <Resource Key="PP.Tracking.OrderStatus.Cancelled" Value="Iptal edildi" />
+    <Resource Key="PP.Tracking.OrderStatus.OnHold" Value="Beklemede" />
+    <Resource Key="PP.Tracking.OrderStatus.WaitingForPayment" Value="Ödeme için bekleniyor" />
+    <Resource Key="PP.Tracking.OrderStatus.Refunded" Value="Geri Ödendi" />
+    <Resource Key="PP.Tracking.PaymentMethod" Value="Ödeme sekli" />
+    <Resource Key="PP.Tracking.PaymentMethods.CreditCard" Value="Kredi karti" />
+    <Resource Key="PP.Tracking.PaymentMethods.PayPal" Value="PayPal" />
+    <Resource Key="PP.Tracking.PaymentMethods.CashOnDelivery" Value="Kapida ödeme" />
+    <Resource Key="PP.Tracking.Date" Value="tarih" />
+    <Resource Key="PP.Tracking.UpdatedOn" Value="Tarihinde güncellendi" />
+    <Resource Key="PP.Tracking.OrderUniqueCode" Value="Siparis Benzersiz Kodu" />
+    <Resource Key="PP.Tracking.OrderDetails" Value="siparis detaylari" />
+    <Resource Key="PP.Tracking.Item" Value="madde" />
+    <Resource Key="PP.Tracking.Price" Value="Fiyat" />
+    <Resource Key="PP.Tracking.Quantity" Value="miktar" />
+    <Resource Key="PP.Tracking.Total" Value="Toplam" />
+    <Resource Key="PP.Tracking.SubTotal" Value="Ara toplam" />
+    <Resource Key="PP.Tracking.Discount" Value="Indirim" />
+    <Resource Key="PP.Tracking.ShippingCharges" Value="Masraflar Nakliye" />
+    <Resource Key="PP.Tracking.DeliveryCharges" Value="Teslimat ücretleri" />
+    <Resource Key="PP.Tracking.FinalTotal" Value="Nihai Toplam" />
+    <Resource Key="PP.Tracking.PromoApplied" Value="Promosyon Uygulamali {promocode}." />
+    <Resource Key="PP.Tracking.ContactDetails" Value="Iletisim detaylari" />
+    <Resource Key="PP.Tracking.CustomerName" Value="müsteri adi" />
+    <Resource Key="PP.Tracking.CustomerEmail" Value="Müsteri e-postasi" />
+    <Resource Key="PP.Tracking.CustomerPhone" Value="Müsteri Telefon" />
+    <Resource Key="PP.Tracking.GuestOrder" Value="Misafir al" />
+    <Resource Key="PP.Tracking.ShippingDetails" Value="Nakliye ayrintilari" />
+    <Resource Key="PP.Tracking.ShippingCountry" Value="ülke" />
+    <Resource Key="PP.Tracking.ShippingCity" Value="Kent" />
+    <Resource Key="PP.Tracking.ShippingAddress" Value="Adres" />
+    <Resource Key="PP.Tracking.ShippingZipCode" Value="Posta kodu" />
+    <Resource Key="PP.Tracking.OrderHistory" Value="Siparis Geçmisi" />
+    <Resource Key="PP.Tracking.OrderTrackingNotAccessible" Value="Afedersiniz! Bu siparis ayrintilari kontrol edemez." />
+    <Resource Key="PP.Tracking.OrderCantBeTracked" Value="Afedersiniz! Biz siparis ayrintilari izleyemez." />
+    <Resource Key="PP.Cart.Title" Value="Alisveris Sepeti" />
+    <Resource Key="PP.Cart.Description" Value="Sepetinizde ayrintilari." />
+    <Resource Key="PP.Cart.ItemImage" Value="görüntü" />
+    <Resource Key="PP.Cart.ItemName" Value="madde" />
+    <Resource Key="PP.Cart.ItemPrice" Value="Fiyat" />
+    <Resource Key="PP.Cart.ItemQuantity" Value="miktar" />
+    <Resource Key="PP.Cart.ItemTotal" Value="Toplam" />
+    <Resource Key="PP.Cart.RemoveItem" Value="Ögeyi kaldirmak" />
+    <Resource Key="PP.Cart.EnterPromoCode" Value="Çeki / Tanitim Kodunu giriniz" />
+    <Resource Key="PP.Cart.ApplyPromo" Value="Uygulamak" />
+    <Resource Key="PP.Cart.PromoAppliedSuccessfully" Value="Basari. {discount} indirimi keyfini çikarin." />
+    <Resource Key="PP.Cart.PromoExpired" Value="Afedersiniz. Bu promosyon / kupon süresi doldu." />
+    <Resource Key="PP.Cart.InvalidPromo" Value="Geçersiz promosyon / kupon." />
+    <Resource Key="PP.Cart.UpdateCart" Value="Sepeti Güncelle" />
+    <Resource Key="PP.Cart.ContinueShopping" Value="Alisverise devam" />
+    <Resource Key="PP.Cart.SubTotal" Value="Ara toplam" />
+    <Resource Key="PP.Cart.Discount" Value="Indirim" />
+    <Resource Key="PP.Cart.ShippingCharges" Value="Masraflar Nakliye" />
+    <Resource Key="PP.Cart.Total" Value="Nihai Toplam" />
+    <Resource Key="PP.Cart.ProceedToCheckout" Value="Ödemeye Süreci" />
+    <Resource Key="PP.Checkout.Title" Value="Çikis yapmak" />
+    <Resource Key="PP.Checkout.Description" Value="sizin alisveris sepeti ürünleri ile Ödeme." />
+    <Resource Key="PP.Checkout.ContactDetails" Value="Iletisim detaylari" />
+    <Resource Key="PP.Checkout.ShippingDetails" Value="Nakliye ayrintilari" />
+    <Resource Key="PP.Checkout.Payment" Value="Ödeme" />
+    <Resource Key="PP.Checkout.YourOrder" Value="Siparisiniz" />
+    <Resource Key="PP.Checkout.Product" Value="Ürün" />
+    <Resource Key="PP.Checkout.Total" Value="Toplam" />
+    <Resource Key="PP.Checkout.ItemQuantity" Value="miktar" />
+    <Resource Key="PP.Checkout.SubTotal" Value="Ara toplam" />
+    <Resource Key="PP.Checkout.Discount" Value="Indirim" />
+    <Resource Key="PP.Checkout.PromoApplied" Value="Promosyon Uygulanan: {promocode}" />
+    <Resource Key="PP.Checkout.HavePromoApplyHere" Value="bir promo var mi? Burada uygulayin." />
+    <Resource Key="PP.Checkout.ShippingCharges" Value="Masraflar Nakliye" />
+    <Resource Key="PP.Checkout.Total" Value="Toplam" />
+    <Resource Key="PP.Checkout.ModifyCartItemsHere" Value="Burada sepeti ögeleri degistirin." />
+    <Resource Key="PP.Checkout.NoProductsInCart" Value="Sepette ürün yok. sepetinde bazi ürünleri ekleyiniz." />
+    <Resource Key="PP.Checkout.FullName" Value="Ad Soyad" />
+    <Resource Key="PP.Checkout.Email" Value="E-posta" />
+    <Resource Key="PP.Checkout.PhoneNumber" Value="Telefon numarasi" />
+    <Resource Key="PP.Checkout.CreateAccount" Value="Hesap olustur?" />
+    <Resource Key="PP.Checkout.AlreadyHaveAccount" Value="Zaten hesabiniz var mi? Oturum aç." />
+    <Resource Key="PP.Checkout.CreateAccount.Validations.FullNameRequired" Value="Tam adi gereklidir." />
+    <Resource Key="PP.Checkout.CreateAccount.Validations.FullNameMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="PP.Checkout.CreateAccount.Validations.FullNameMaximumLength" Value="Maksimum Uzunluk {max}." />
+    <Resource Key="PP.Checkout.CreateAccount.Validations.ProvideValidEmail" Value="Geçerli bir e-posta adresi saglayin." />
+    <Resource Key="PP.Checkout.CreateAccount.Validations.EmailRequired" Value="Email gereklidir" />
+    <Resource Key="PP.Checkout.Country" Value="ülke" />
+    <Resource Key="PP.Checkout.City" Value="Kent" />
+    <Resource Key="PP.Checkout.Address" Value="Adres" />
+    <Resource Key="PP.Checkout.ZipCode" Value="Posta kodu" />
+    <Resource Key="PP.Checkout.Shipping.Validations.CountryRequired" Value="Ülke gereklidir." />
+    <Resource Key="PP.Checkout.Shipping.Validations.CityRequired" Value="Sehir gereklidir." />
+    <Resource Key="PP.Checkout.Shipping.Validations.AddressRequired" Value="Adres gereklidir." />
+    <Resource Key="PP.Checkout.Shipping.Validations.ZipCodeRequired" Value="Posta Kodu gereklidir." />
+    <Resource Key="PP.Checkout.PayViaCreditCard" Value="Kredi Karti ile Ödeme" />
+    <Resource Key="PP.Checkout.CardHolderName" Value="Kart sahibinin adi" />
+    <Resource Key="PP.Checkout.CardNumber" Value="Kart numarasi" />
+    <Resource Key="PP.Checkout.CardExpiryDate" Value="Kart son kullanma tarihi" />
+    <Resource Key="PP.Checkout.CardExpiryMonth" Value="Karti son kullanma Ay" />
+    <Resource Key="PP.Checkout.CardExpiryYear" Value="Karti son kullanma Yil" />
+    <Resource Key="PP.Checkout.CardCVC" Value="CVC" />
+    <Resource Key="PP.Checkout.CardInfoNotSaved" Value="Dinlenme sunucularimizda kredi karti bilgilerini saklamak yapilmadigindan emin." />
+    <Resource Key="PP.Checkout.CardPayNow" Value="Simdi öde" />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CardHolderNameRequired" Value="Kart Sahipleri Adi gereklidir." />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CardNumberRequired" Value="Kart Numarasi gereklidir." />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CardNumberMustBeValid" Value="Kart Numarasi geçerli olmalidir." />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CardExpiryMonthRequired" Value="Karti son kullanma Ay gereklidir." />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CardExpiryYearRequired" Value="Karti son kullanma Yil gereklidir." />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CVCRequired" Value="CVC numarasi gerekiyor." />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CVCMustBeValid" Value="CVC sayisal olmalidir." />
+    <Resource Key="PP.Checkout.PayViaCashOnDelivery" Value="Teslimatta Cash ile Öde" />
+    <Resource Key="PP.Checkout.PlaceOrder" Value="Siparis Vermek" />
+    <Resource Key="PP.Checkout.PayViaPayPal" Value="PayPal ile Öde" />
+    <Resource Key="PP.Checkout.PayPalAmountNote" Value="Sen PayPal üzerinden {currency} içinde '{amount}' ödeyecek." />
+    <Resource Key="PP.Checkout.PayPal.ConfirmOrderAgain" Value="Siparis onaylamak" />
+    <Resource Key="PP.Checkout.Validations.PayPalOrderIssue" Value="PayPal siparis bulunamadi ayrintilari." />
+    <Resource Key="PP.Checkout.Validations.PleaseCompleteRequiredFields" Value="Gerekli alanlari doldurun." />
+    <Resource Key="PP.Checkout.OrderPlacedSuccessfully" Value="Siparisiniz basariyla yerlestirildi." />
+    <Resource Key="PP.Register.Title" Value="Kayit Hesap" />
+    <Resource Key="PP.Register.Description" Value="{application} tarihinde hesabinizi kaydedin." />
+    <Resource Key="PP.Register.FullName" Value="Tam isim" />
+    <Resource Key="PP.Register.FullNamePlaceholder" Value="Ad Soyad" />
+    <Resource Key="PP.Register.Email" Value="E-posta" />
+    <Resource Key="PP.Register.EmailPlaceholder" Value="E-posta" />
+    <Resource Key="PP.Register.Username" Value="Kullanici adi" />
+    <Resource Key="PP.Register.UsernamePlaceholder" Value="Kullanici adi" />
+    <Resource Key="PP.Register.Password" Value="Parola" />
+    <Resource Key="PP.Register.PasswordPlaceholder" Value="Parola" />
+    <Resource Key="PP.Register.ConfirmPassword" Value="Sifreyi Onayla" />
+    <Resource Key="PP.Register.ConfirmPasswordPlaceholder" Value="Sifreyi Onayla" />
+    <Resource Key="PP.Register.RegisterAccount" Value="Kayit ol" />
+    <Resource Key="PP.Register.LoginAccount" Value="Veya Oturum ile Mevcut Hesap" />
+    <Resource Key="PP.Register.Validation.FullNameRequired" Value="Tam adi gereklidir." />
+    <Resource Key="PP.Register.Validation.UsernameRequired" Value="Kullanici adi gerekiyor." />
+    <Resource Key="PP.Register.Validation.EmailRequired" Value="Email gereklidir." />
+    <Resource Key="PP.Register.Validation.EmailFormat" Value="Geçerli bir e-posta girin." />
+    <Resource Key="PP.Register.Validation.PasswordRequired" Value="Sifre gereklidir." />
+    <Resource Key="PP.Register.Validation.ConfirmPasswordRequired" Value="Onayla Sifre gereklidir." />
+    <Resource Key="PP.Register.Validation.PasswordNotMatched" Value="Sifre ve Onayla Sifre degil eslesti." />
+    <Resource Key="PP.Login.Title" Value="Hesap girisi" />
+    <Resource Key="PP.Login.Description" Value="{application} tarihinde hesabiniza giris yapin." />
+    <Resource Key="PP.Login.Username" Value="Kullanici adi" />
+    <Resource Key="PP.Login.UsernamePlaceholder" Value="Kullanici adi" />
+    <Resource Key="PP.Login.Password" Value="Parola" />
+    <Resource Key="PP.Login.PasswordPlaceholder" Value="Parola" />
+    <Resource Key="PP.Login.RememberMe" Value="Beni Hatirla" />
+    <Resource Key="PP.Login.ForgotPassword" Value="Parolanizi mi unuttunuz?" />
+    <Resource Key="PP.Login.LoginAccount" Value="Oturum aç" />
+    <Resource Key="PP.Login.RegisterAccount" Value="Veya Kayit Yeni Hesap" />
+    <Resource Key="PP.Login.Validation.UsernameRequired" Value="senin accout adinizi girin." />
+    <Resource Key="PP.Login.Validation.PasswordRequired" Value="senin accout sifrenizi giriniz." />
+    <Resource Key="PP.Login.Validation.InvalidLoginAttempt" Value="Geçersiz giris denemesi." />
+    <Resource Key="PP.Login.Validation.LockedOut" Value="Sen kilitli." />
+    <Resource Key="PP.ForgotPassword.Title" Value="Parolanizi mi unuttunuz" />
+    <Resource Key="PP.ForgotPassword.Description" Value="senin {application} hesabi kurtarin." />
+    <Resource Key="PP.ForgotPassword.Username" Value="Kullanici adi" />
+    <Resource Key="PP.ForgotPassword.UsernamePlaceholder" Value="Kullanici adi" />
+    <Resource Key="PP.ForgotPassword.Validation.UsernameRequired" Value="Kullanici adi gerekiyor." />
+    <Resource Key="PP.ForgotPassword.RecoverAccount" Value="Hesap kurtarma" />
+    <Resource Key="PP.ForgotPassword.PasswordResetEmailSuccess" Value="Lütfen emailinizi kontrol edin. Sifre sifirlama baglantisi hesaplarinizi e-posta gönderildi." />
+    <Resource Key="PP.ResetPassword.Title" Value="Sifreyi yenile" />
+    <Resource Key="PP.ResetPassword.Description" Value="{application} tarihinde hesabinin parolasini sifirlayin." />
+    <Resource Key="PP.ResetPassword.Password" Value="Parola" />
+    <Resource Key="PP.ResetPassword.PasswordPlaceholder" Value="Parola" />
+    <Resource Key="PP.ResetPassword.ConfirmPassword" Value="Sifreyi Onayla" />
+    <Resource Key="PP.ResetPassword.ConfirmPasswordPlaceholder" Value="Sifreyi Onayla" />
+    <Resource Key="PP.ResetPassword.ResetPassword" Value="Sifreyi yenile" />
+    <Resource Key="PP.ResetPassword.LoginAccount" Value="Hesabina Giris" />
+    <Resource Key="PP.ResetPassword.Validation.PasswordRequired" Value="Sifre gereklidir." />
+    <Resource Key="PP.ResetPassword.Validation.ConfirmPasswordRequired" Value="Onayla Sifre gereklidir." />
+    <Resource Key="PP.ResetPassword.Validation.PasswordNotMatched" Value="Sifre ve Onayla Sifre degil eslesti." />
+    <Resource Key="PP.UserProfile.Title" Value="Kullanici profili" />
+    <Resource Key="PP.UserProfile.Description" Value="Profilinizi ve {application} üzerinde ilgili verileri inceleyin." />
+    <Resource Key="PP.UserProfile.Username" Value="Kullanici adi" />
+    <Resource Key="PP.UserProfile.Info" Value="Bilgi" />
+    <Resource Key="PP.UserProfile.ChangePassword" Value="Sifre degistir" />
+    <Resource Key="PP.UserProfile.ChangeAvatar" Value="Avatari degistir" />
+    <Resource Key="PP.UserProfile.Orders" Value="Emirler" />
+    <Resource Key="PP.UserProfile.Comments" Value="Yorumlar" />
+    <Resource Key="PP.UserProfile.Info.FullName" Value="Ad Soyad" />
+    <Resource Key="PP.UserProfile.Info.Email" Value="E-posta" />
+    <Resource Key="PP.UserProfile.Info.Username" Value="Kullanici adi" />
+    <Resource Key="PP.UserProfile.Info.PhoneNumber" Value="Telefon numarasi" />
+    <Resource Key="PP.UserProfile.Info.Country" Value="ülke" />
+    <Resource Key="PP.UserProfile.Info.City" Value="Kent" />
+    <Resource Key="PP.UserProfile.Info.Address" Value="Adres" />
+    <Resource Key="PP.UserProfile.Info.ZipCode" Value="Posta kodu" />
+    <Resource Key="PP.UserProfile.Info.UpdateInfo" Value="Güncelleme bilgisi" />
+    <Resource Key="PP.UserProfile.Info.UserInfoUpdated" Value="Kullanici bilgisi güncellendi." />
+    <Resource Key="PP.UserProfile.Info.Validations.FullNameRequired" Value="Tam adi gereklidir." />
+    <Resource Key="PP.UserProfile.Info.Validations.FullNameMin" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="PP.UserProfile.Info.Validations.FullNameMax" Value="Maksimum Uzunluk {max}." />
+    <Resource Key="PP.UserProfile.Info.Validations.EmailFormat" Value="Geçerli bir e-posta girin." />
+    <Resource Key="PP.UserProfile.Info.Validations.EmailRequired" Value="E-posta adresi gereklidir." />
+    <Resource Key="PP.UserProfile.Info.Validations.UsernameRequired" Value="Kullanici adi gerekiyor." />
+    <Resource Key="PP.UserProfile.Info.Validations.CountryRequired" Value="Ülke gereklidir." />
+    <Resource Key="PP.UserProfile.Info.Validations.CityRequired" Value="Sehir gereklidir." />
+    <Resource Key="PP.UserProfile.Info.Validations.AddressRequired" Value="Adres gereklidir." />
+    <Resource Key="PP.UserProfile.Info.Validations.ZipCodeRequired" Value="Posta Kodu gereklidir." />
+    <Resource Key="PP.UserProfile.ChangePassword.CurrentPassword" Value="Simdiki Sifre" />
+    <Resource Key="PP.UserProfile.ChangePassword.NewPassword" Value="Yeni Sifre" />
+    <Resource Key="PP.UserProfile.ChangePassword.ConfirmPassword" Value="Sifreyi Onayla" />
+    <Resource Key="PP.UserProfile.ChangePassword.UpdatePassword" Value="Sifre güncelle" />
+    <Resource Key="PP.UserProfile.ChangePassword.Validations.OldPasswordRequired" Value="Eski Sifre gereklidir." />
+    <Resource Key="PP.UserProfile.ChangePassword.Validations.NewPasswordRequired" Value="Yeni Sifre gereklidir." />
+    <Resource Key="PP.UserProfile.ChangePassword.Validations.ConfirmPasswordRequired" Value="Onayla Sifre gereklidir." />
+    <Resource Key="PP.UserProfile.ChangePassword.Validations.PasswordsNotMatched" Value="Yeni Sifre ve Onayla Sifre denk gelmiyor." />
+    <Resource Key="PP.UserProfile.ChangePassword.PasswordsUpdated" Value="Sifre basariyla güncellendi." />
+    <Resource Key="PP.UserProfile.ChangeAvatar.Avatar" Value="Avatar" />
+    <Resource Key="PP.UserProfile.ChangeAvatar.SelectAvatar" Value="seç Avatar" />
+    <Resource Key="PP.UserProfile.ChangeAvatar.UpdateAvatar" Value="Güncelleme Avatar" />
+    <Resource Key="PP.UserProfile.ChangeAvatar.AvatarUpdated" Value="Avatar basariyla güncellendi." />
+    <Resource Key="PP.UserProfile.ChangeAvatar.Validations.SelectAvatar" Value="Bir resim seçin." />
+    <Resource Key="PP.UserProfile.UserOrders.OrderIDPlaceholder" Value="Siparis Kimligi göre ara" />
+    <Resource Key="PP.UserProfile.UserOrders.SelectByOrderStatus" Value="Siparis durumu göre seç ..." />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.Placed" Value="yerlestirilmis" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.Processing" Value="Isleme" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.Delivered" Value="teslim" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.Failed" Value="Basarisiz oldu" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.Cancelled" Value="Iptal edildi" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.OnHold" Value="Beklemede" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.WaitingForPayment" Value="Ödeme için bekleniyor" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.Refunded" Value="Geri Ödendi" />
+    <Resource Key="PP.UserProfile.UserOrders.SearchOrders" Value="Arama" />
+    <Resource Key="PP.UserProfile.UserOrders.Reset" Value="Sifirla" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderID" Value="Siparis Kimligi" />
+    <Resource Key="PP.UserProfile.UserOrders.PlacedOnDate" Value="Date Yerlestirilmis" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderAmount" Value="Siparis miktari" />
+    <Resource Key="PP.UserProfile.UserOrders.Status" Value="durum" />
+    <Resource Key="PP.UserProfile.UserOrders.Actions" Value="Hareketler" />
+    <Resource Key="PP.UserProfile.UserOrders.UpdatedOn" Value="Tarihinde güncellendi" />
+    <Resource Key="PP.UserProfile.UserOrders.Track" Value="Izlemek" />
+    <Resource Key="PP.UserProfile.UserOrders.Previous" Value="Önceki" />
+    <Resource Key="PP.UserProfile.UserOrders.Next" Value="Sonraki" />
+    <Resource Key="PP.UserProfile.UserOrders.NoOrdersFound" Value="Siparis bulunamadi." />
+    <Resource Key="PP.UserProfile.UserComments.SearchCommentsPlaceholder" Value="Yorumlar ara" />
+    <Resource Key="PP.UserProfile.UserComments.SearchComments" Value="Arama" />
+    <Resource Key="PP.UserProfile.UserComments.Reset" Value="Sifirla" />
+    <Resource Key="PP.UserProfile.UserComments.CommentUserName" Value="{user}" />
+    <Resource Key="PP.UserProfile.UserComments.CommentTimestamp" Value="{datetime}" />
+    <Resource Key="PP.UserProfile.UserComments.DeleteComment" Value="Sil Yorum" />
+    <Resource Key="PP.UserProfile.UserComments.CommentDeleteWarning" Value="Bu yorumu silmek istediginizden emin misiniz?" />
+    <Resource Key="PP.UserProfile.UserComments.CommentDeleteConfirm" Value="Evet, sil!" />
+    <Resource Key="PP.UserProfile.UserComments.CommentDeleteCancel" Value="No, Dont silin." />
+    <Resource Key="PP.UserProfile.UserComments.Previous" Value="Önceki" />
+    <Resource Key="PP.UserProfile.UserComments.Next" Value="Sonraki" />
+    <Resource Key="PP.UserProfile.UserComments.NoCommentsFound" Value="Yorum bulunamadi." />
+    <Resource Key="PP.PrintInvoice.Title" Value="Baski Fatura Siparis: {orderid}" />
+    <Resource Key="PP.PrintInvoice.Description" Value="siparis için fatura yazdirin." />
+    <Resource Key="PP.PrintInvoice.OrderID" Value="Siparis Kimligi" />
+    <Resource Key="PP.PrintInvoice.Dated" Value="Tarihli" />
+    <Resource Key="PP.PrintInvoice.Status" Value="durum" />
+    <Resource Key="PP.PrintInvoice.CustomerInformation" Value="Müsteri Bilgileri" />
+    <Resource Key="PP.PrintInvoice.PaymentDetails" Value="Ödeme detaylari" />
+    <Resource Key="PP.PrintInvoice.PaymentMethod" Value="Ödeme sekli" />
+    <Resource Key="PP.PrintInvoice.TransactionID" Value="Islem Kimligi" />
+    <Resource Key="PP.PrintInvoice.OrderID" Value="Siparis Kimligi" />
+    <Resource Key="PP.PrintInvoice.Code" Value="kod" />
+    <Resource Key="PP.PrintInvoice.Product" Value="Ürün" />
+    <Resource Key="PP.PrintInvoice.Price" Value="Fiyat" />
+    <Resource Key="PP.PrintInvoice.Quantity" Value="miktar" />
+    <Resource Key="PP.PrintInvoice.Total" Value="Toplam" />
+    <Resource Key="PP.PrintInvoice.PromoApplied" Value="Promosyon Uygulanan: {promo}" />
+    <Resource Key="PP.PrintInvoice.TotalAmount" Value="Toplam tutar" />
+    <Resource Key="PP.PrintInvoice.Discount" Value="Indirim" />
+    <Resource Key="PP.PrintInvoice.ShippingCharges" Value="Nakliye" />
+    <Resource Key="PP.PrintInvoice.FinalAmount" Value="Son miktar" />
+    <Resource Key="PP.PrintInvoice.GuestOrder" Value="Misafir al" />
+    <Resource Key="PP.PrintInvoice.NotAccessible" Value="Afedersiniz! Bu siparis ayrintilari kontrol edemez." />
+    <Resource Key="Dashboard.Dashboard" Value="Gösterge Paneli" />
+    <Resource Key="Dashboard.Commons.RecordNotSpecifiedInCurrentLanguage" Value="Bu rekor cari dilinde belirtilmemistir." />
+    <Resource Key="Dashboard.Commons.ParentCategoryRecordNotSpecifiedInCurrentLanguage" Value="Üst Kategori geçerli dilde belirtilmedi." />
+    <Resource Key="Dashboard.Commons.CategoryRecordNotSpecifiedInCurrentLanguage" Value="Bu kategori adi geçerli dilde belirtilmemistir." />
+    <Resource Key="Dashboard.Message.Success" Value="Basari!" />
+    <Resource Key="Dashboard.Message.Warning" Value="Uyari!" />
+    <Resource Key="Dashboard.Message.Error" Value="Hata!" />
+    <Resource Key="Dashboard.Message.Thanks" Value="Tesekkürler" />
+    <Resource Key="Dashboard.Message.GenericErrorMessage" Value="Bir hata olustu." />
+    <Resource Key="Dashboard.Message.ConfirmDeleteWarning" Value="Bu kaydi silmek istediginizden emin misiniz?" />
+    <Resource Key="Dashboard.Message.ConfirmDelete" Value="Onaylamak" />
+    <Resource Key="Dashboard.Message.CancelDelete" Value="Iptal etmek" />
+    <Resource Key="Dashboard.Message.OK" Value="tamam" />
+    <Resource Key="Dashboard.Pagination.Previous" Value="Önceki" />
+    <Resource Key="Dashboard.Pagination.Next" Value="Sonraki" />
+    <Resource Key="Dashboard.Menu.Home" Value="Ev" />
+    <Resource Key="Dashboard.Menu.Dashboard" Value="Gösterge Paneli" />
+    <Resource Key="Dashboard.Menu.Categories" Value="Kategoriler" />
+    <Resource Key="Dashboard.Menu.Products" Value="Ürün:% s" />
+    <Resource Key="Dashboard.Menu.Promos" Value="Tanitimlar" />
+    <Resource Key="Dashboard.Menu.Orders" Value="Emirler" />
+    <Resource Key="Dashboard.Menu.Comments" Value="Yorumlar" />
+    <Resource Key="Dashboard.Menu.Users" Value="Kullanicilar" />
+    <Resource Key="Dashboard.Menu.Roles" Value="Roller" />
+    <Resource Key="Dashboard.Menu.Languages" Value="Diller" />
+    <Resource Key="Dashboard.Menu.Configurations" Value="yapilandirmalar" />
+    <Resource Key="Dashboard.Menu.AllConfigurations" Value="Tüm Yapilandirmalari" />
+    <Resource Key="Dashboard.Menu.LanguageConfigurations" Value="Dil Yapilandirmalari" />
+    <Resource Key="Dashboard.Menu.NewsletterSubscribers" Value="Bülten Aboneler" />
+    <Resource Key="Dashboard.TopMenu.Profile" Value="Profil" />
+    <Resource Key="Dashboard.TopMenu.LogOff" Value="Oturumu Kapat" />
+    <Resource Key="Dashboard.Dashboard.Hello" Value="Sayin {user}!" />
+    <Resource Key="Dashboard.Dashboard.WelcomeToDashboard" Value="{application} Dashboard hos geldiniz. Asagida birkaç demografik vardir." />
+    <Resource Key="Dashboard.Dashboard.LowStockAlert" Value="{product-link} kalan miktar {product-quantity} stok alarm seviyesinin daha azdir {stock-alert-level} seklindedir." />
+    <Resource Key="Dashboard.Dashboard.TotalProducts" Value="Toplam Ürünleri" />
+    <Resource Key="Dashboard.Dashboard.TotalCategories" Value="Toplam Kategori" />
+    <Resource Key="Dashboard.Dashboard.TotalOrders" Value="Toplam Siparisler" />
+    <Resource Key="Dashboard.Dashboard.TotalComments" Value="Toplam Yorum" />
+    <Resource Key="Dashboard.Dashboard.NoOfUsers" Value="Kullanicilar Of sayili" />
+    <Resource Key="Dashboard.Dashboard.NoOfRoles" Value="Roller sayisi" />
+    <Resource Key="Dashboard.Categories.Title" Value="Kategoriler" />
+    <Resource Key="Dashboard.Categories.Description" Value="Liste Kategoriler" />
+    <Resource Key="Dashboard.Categories.SearchPlaceholder" Value="Kategori Adi göre ara" />
+    <Resource Key="Dashboard.Categories.SelectParentCategory" Value="Üst Kategori göre seç Kategoriler" />
+    <Resource Key="Dashboard.Categories.Search" Value="Arama" />
+    <Resource Key="Dashboard.Categories.Reset" Value="Sifirla" />
+    <Resource Key="Dashboard.Categories.CreateCategory" Value="Kategori olusturma" />
+    <Resource Key="Dashboard.Categories.List.Name" Value="ad" />
+    <Resource Key="Dashboard.Categories.List.ParentCategory" Value="aile kategorisi" />
+    <Resource Key="Dashboard.Categories.List.Description" Value="Açiklama" />
+    <Resource Key="Dashboard.Categories.List.Products" Value="Ürün:% s" />
+    <Resource Key="Dashboard.Categories.List.Actions" Value="Hareketler" />
+    <Resource Key="Dashboard.Categories.List.FeaturedCategory" Value="Öne Çikan Kategori" />
+    <Resource Key="Dashboard.Categories.List.Edit" Value="Düzenle" />
+    <Resource Key="Dashboard.Categories.List.Delete" Value="Sil" />
+    <Resource Key="Dashboard.Categories.List.NoRecordFound" Value="Hiçbir Kategoriler bulundu." />
+    <Resource Key="Dashboard.Categories.EditCategoryTitle" Value="Kategori Düzenle" />
+    <Resource Key="Dashboard.Categories.EditCategoryDescription" Value="Düzenleme kategorisi." />
+    <Resource Key="Dashboard.Categories.CreateCategoryTitle" Value="Kategori olusturma" />
+    <Resource Key="Dashboard.Categories.CreateCategoryDescription" Value="Yeni kategori olusturun." />
+    <Resource Key="Dashboard.Categories.Action.Name" Value="ad" />
+    <Resource Key="Dashboard.Categories.Action.NamePlaceholder" Value="Kategori adi" />
+    <Resource Key="Dashboard.Categories.Action.Summary" Value="özet" />
+    <Resource Key="Dashboard.Categories.Action.SummaryPlaceholder" Value="kategori özet ekleyin." />
+    <Resource Key="Dashboard.Categories.Action.Description" Value="Açiklama" />
+    <Resource Key="Dashboard.Categories.Action.DescriptionPlaceholder" Value="kategori açiklama ekleyin." />
+    <Resource Key="Dashboard.Categories.Action.ParentCategory" Value="aile kategorisi" />
+    <Resource Key="Dashboard.Categories.Action.ParentCategoryNone" Value="Yok" />
+    <Resource Key="Dashboard.Categories.Action.URL" Value="URL" />
+    <Resource Key="Dashboard.Categories.Action.SelectPicture" Value="Resim seç" />
+    <Resource Key="Dashboard.Categories.Action.Featured" Value="Öne Çikan Kategori" />
+    <Resource Key="Dashboard.Categories.Update" Value="Güncelleme" />
+    <Resource Key="Dashboard.Categories.Delete" Value="Sil" />
+    <Resource Key="Dashboard.Categories.Save" Value="Kayit etmek" />
+    <Resource Key="Dashboard.Categories.Cancel" Value="Iptal etmek" />
+    <Resource Key="Dashboard.Categories.Action.Validation.NameRequired" Value="Kategori Adi gereklidir." />
+    <Resource Key="Dashboard.Categories.Action.Validation.NameMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="Dashboard.Categories.Action.Validation.NameMaximumLength" Value="Maksimum uzunluk {length} seklindedir." />
+    <Resource Key="Dashboard.Categories.Action.Validation.DescriptionMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="Dashboard.Categories.Action.Validation.CategoryNotFound" Value="Kategori bulunamadi." />
+    <Resource Key="Dashboard.Categories.Action.Validation.UnableToUpdateCategory" Value="Kategori güncellenemedi." />
+    <Resource Key="Dashboard.Categories.Action.Validation.UnableToUpdateCategoryRecord" Value="Kategori Record güncellenemedi." />
+    <Resource Key="Dashboard.Categories.Action.Validation.UnableToCreateCategory" Value="Kategori olusturulamadi." />
+    <Resource Key="Dashboard.Categories.Action.Validation.UnableToDeleteCategory" Value="Kategori silinemedi." />
+    <Resource Key="Dashboard.Products.Title" Value="Ürün:% s" />
+    <Resource Key="Dashboard.Products.Description" Value="Ürünler Listesi" />
+    <Resource Key="Dashboard.Products.SearchPlaceholder" Value="Isme Göre Ürünleri ara" />
+    <Resource Key="Dashboard.Products.SelectByCategory" Value="Kategoriye Göre Seçin" />
+    <Resource Key="Dashboard.Products.Search" Value="Arama" />
+    <Resource Key="Dashboard.Products.Reset" Value="Sifirla" />
+    <Resource Key="Dashboard.Products.CreateProduct" Value="Olusturmak" />
+    <Resource Key="Dashboard.Products.ShowOnlyLowStock" Value="Sadece düsük stoklari göstermek" />
+    <Resource Key="Dashboard.Products.List.Name" Value="ad" />
+    <Resource Key="Dashboard.Products.List.Category" Value="Kategori" />
+    <Resource Key="Dashboard.Products.List.Summary" Value="özet" />
+    <Resource Key="Dashboard.Products.List.Price" Value="Fiyat" />
+    <Resource Key="Dashboard.Products.List.StockQuantity" Value="Stok miktari" />
+    <Resource Key="Dashboard.Products.List.Actions" Value="Hareketler" />
+    <Resource Key="Dashboard.Products.List.FeaturedProduct" Value="Özellikli ürün" />
+    <Resource Key="Dashboard.Products.Edit" Value="Düzenle" />
+    <Resource Key="Dashboard.Products.Delete" Value="Sil" />
+    <Resource Key="Dashboard.Products.List.NoRecordFound" Value="Hiçbir Ürünleri bulundu." />
+    <Resource Key="Dashboard.Products.EditProductTitle" Value="Düzenleme Ürün" />
+    <Resource Key="Dashboard.Products.EditProductDescription" Value="Düzen Ürün." />
+    <Resource Key="Dashboard.Products.CreateProductTitle" Value="Ürün olusturma" />
+    <Resource Key="Dashboard.Products.CreateProductDescription" Value="Yeni bir ürün olusturun." />
+    <Resource Key="Dashboard.Products.Action.Name" Value="ad" />
+    <Resource Key="Dashboard.Products.Action.NamePlaceholder" Value="Ürün adi" />
+    <Resource Key="Dashboard.Products.Action.Summary" Value="özet" />
+    <Resource Key="Dashboard.Products.Action.SummaryPlaceholder" Value="Ürün Özeti ekle" />
+    <Resource Key="Dashboard.Products.Action.Description" Value="Açiklama" />
+    <Resource Key="Dashboard.Products.Action.DescriptionPlaceholder" Value="Ürün Açiklamasi Ekle" />
+    <Resource Key="Dashboard.Products.Action.ProductSpecifications" Value="Ürün Özellikleri" />
+    <Resource Key="Dashboard.Products.Action.SpecificationTitle" Value="Sartname Baslik" />
+    <Resource Key="Dashboard.Products.Action.SpecificationValue" Value="Sartname Degeri" />
+    <Resource Key="Dashboard.Products.Action.AddSpecification" Value="Spesifikasyonu'nda ekle" />
+    <Resource Key="Dashboard.Products.Action.SpecificationAction" Value="Hareketler" />
+    <Resource Key="Dashboard.Products.Action.SpecificationDelete" Value="Sil" />
+    <Resource Key="Dashboard.Products.Action.NoSpecifications" Value="Hiçbir Özellikler." />
+    <Resource Key="Dashboard.Products.Action.Category" Value="Kategori" />
+    <Resource Key="Dashboard.Products.Action.Price" Value="Fiyat" />
+    <Resource Key="Dashboard.Products.Action.PricePlaceholder" Value="Ürün fiyati" />
+    <Resource Key="Dashboard.Products.Action.SelectPictures" Value="seç Resimleri" />
+    <Resource Key="Dashboard.Products.Action.SetThumbnailImage" Value="Küçük resim Image olarak ayarla" />
+    <Resource Key="Dashboard.Products.Action.RemovePicture" Value="resmi kaldir" />
+    <Resource Key="Dashboard.Products.Action.FeaturedProduct" Value="Özellikli ürün" />
+    <Resource Key="Dashboard.Products.Update" Value="Güncelleme" />
+    <Resource Key="Dashboard.Products.Delete" Value="Sil" />
+    <Resource Key="Dashboard.Products.Save" Value="Kayit etmek" />
+    <Resource Key="Dashboard.Products.Cancel" Value="Iptal etmek" />
+    <Resource Key="Dashboard.Products.Action.Validation.NameRequired" Value="Ürün Adi gereklidir." />
+    <Resource Key="Dashboard.Products.Action.Validation.NameMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="Dashboard.Products.Action.Validation.NameMaximumLength" Value="Maksimum Uzunluk {max}." />
+    <Resource Key="Dashboard.Products.Action.Validation.CategoryRequired" Value="Ürün Kategorisi seçin." />
+    <Resource Key="Dashboard.Products.Action.Validation.SummaryRequired" Value="Ürün Özeti gereklidir." />
+    <Resource Key="Dashboard.Products.Action.Validation.SummaryMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="Dashboard.Products.Action.Validation.SummaryMaximumLength" Value="Maksimum Uzunluk {max}." />
+    <Resource Key="Dashboard.Products.Action.Validation.DescriptionRequired" Value="Açiklama gereklidir." />
+    <Resource Key="Dashboard.Products.Action.Validation.DescriptionMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="Dashboard.Products.Action.Validation.PriceRequired" Value="Fiyat gereklidir." />
+    <Resource Key="Dashboard.Products.Action.Validation.PriceRange" Value="Fiyat {max} ile {min} arasinda olmalidir." />
+    <Resource Key="Dashboard.Products.Action.Validation.ProductPicturesRequired" Value="Bir ürün resimde en az yükleyin." />
+    <Resource Key="Dashboard.Products.Action.Validation.ProductNotFound" Value="Ürün bulunamadi." />
+    <Resource Key="Dashboard.Products.Action.Validation.UnableToUpdateProduct" Value="Ürün güncellenemedi." />
+    <Resource Key="Dashboard.Products.Action.Validation.UnableToUpdateProductRecord" Value="Ürün Kaydi güncellenemedi." />
+    <Resource Key="Dashboard.Products.Action.Validation.UnableToCreateProduct" Value="Ürün olusturulamiyor." />
+    <Resource Key="Dashboard.Products.Action.Validation.UnableToCreateProductRecord" Value="Ürün Kaydi olusturulamiyor." />
+    <Resource Key="Dashboard.Products.Action.Validation.UnableToDeleteProduct" Value="Ürün silinemedi." />
+    <Resource Key="Dashboard.Promos.Title" Value="Tanitimlar" />
+    <Resource Key="Dashboard.Promos.Description" Value="Promosyonlar Listeleme Sayfasi." />
+    <Resource Key="Dashboard.Promos.SearchPlaceholder" Value="Arama Promosyon" />
+    <Resource Key="Dashboard.Promos.Search" Value="Arama" />
+    <Resource Key="Dashboard.Promos.Reset" Value="Sifirla" />
+    <Resource Key="Dashboard.Promos.CreatePromo" Value="Promo olustur" />
+    <Resource Key="Dashboard.Promos.List.Name" Value="ad" />
+    <Resource Key="Dashboard.Promos.List.Code" Value="Promosyon kodu" />
+    <Resource Key="Dashboard.Promos.List.PromoType" Value="Promosyon Tipi" />
+    <Resource Key="Dashboard.Promos.List.Value" Value="deger" />
+    <Resource Key="Dashboard.Promos.List.ValidTill" Value="Kadar geçerli" />
+    <Resource Key="Dashboard.Promos.List.Actions" Value="Hareketler" />
+    <Resource Key="Dashboard.Promos.List.NoRecordFound" Value="Hiçbir tanitimlarini bulundu." />
+    <Resource Key="Dashboard.Promos.PromoTypes" Value="Promosyon Çesitleri" />
+    <Resource Key="Dashboard.Promos.PromoTypes.Percentage" Value="Yüzde" />
+    <Resource Key="Dashboard.Promos.PromoTypes.Amount" Value="Miktar" />
+    <Resource Key="Dashboard.Promos.Edit" Value="Düzenle" />
+    <Resource Key="Dashboard.Promos.Delete" Value="Sil" />
+    <Resource Key="Dashboard.Promos.EditPromoTitle" Value="Düzenleme Promosyon" />
+    <Resource Key="Dashboard.Promos.EditPromoDescription" Value="Düzenleme Promosyon." />
+    <Resource Key="Dashboard.Promos.CreatePromoTitle" Value="Promo olustur" />
+    <Resource Key="Dashboard.Promos.CreatePromoDescription" Value="Yeni promo olusturun." />
+    <Resource Key="Dashboard.Promos.Action.Name" Value="ad" />
+    <Resource Key="Dashboard.Promos.Action.NamePlaceholder" Value="Promosyon Ad Ekle" />
+    <Resource Key="Dashboard.Promos.Action.Description" Value="Açiklama" />
+    <Resource Key="Dashboard.Promos.Action.DescriptionPlaceholder" Value="promo hakkinda açiklama ekleyin." />
+    <Resource Key="Dashboard.Promos.Action.Code" Value="kod" />
+    <Resource Key="Dashboard.Promos.Action.CodePlaceholder" Value="Promosyon Kodu Ekle" />
+    <Resource Key="Dashboard.Promos.Action.PromoType" Value="Promosyon Tipi" />
+    <Resource Key="Dashboard.Promos.Action.AmountPromoDescription" Value="Tutar Promosyon Tipi siparisin toplam tutarindan tutari belirtilen degerin indirim verecektir." />
+    <Resource Key="Dashboard.Promos.Action.PercentagePromoDescription" Value="Yüzde Promosyon Tipi siparis toplam miktarinin yüzdesi belirtilen degerin indirim verecektir." />
+    <Resource Key="Dashboard.Promos.Action.Value" Value="deger" />
+    <Resource Key="Dashboard.Promos.Action.ValidTill" Value="Kadar geçerli" />
+    <Resource Key="Dashboard.Promos.Update" Value="Güncelleme" />
+    <Resource Key="Dashboard.Promos.Delete" Value="Sil" />
+    <Resource Key="Dashboard.Promos.Save" Value="Kayit etmek" />
+    <Resource Key="Dashboard.Promos.Cancel" Value="Iptal etmek" />
+    <Resource Key="Dashboard.Promos.Action.Validation.NameRequired" Value="Isim gerekli." />
+    <Resource Key="Dashboard.Promos.Action.Validation.NameMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="Dashboard.Promos.Action.Validation.NameMaximumLength" Value="Maksimum Uzunluk {max}." />
+    <Resource Key="Dashboard.Promos.Action.Validation.PromoTypeRequired" Value="Promosyon Tipi seçiniz." />
+    <Resource Key="Dashboard.Promos.Action.Validation.DescriptionMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="Dashboard.Promos.Action.Validation.CodeRequired" Value="Promosyon Kodu gereklidir." />
+    <Resource Key="Dashboard.Promos.Action.Validation.CodeMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="Dashboard.Promos.Action.Validation.CodeMaximumLength" Value="Maksimum Uzunluk {max}." />
+    <Resource Key="Dashboard.Promos.Action.Validation.ValueRequired" Value="Promosyon Degeri gereklidir." />
+    <Resource Key="Dashboard.Promos.Action.Validation.ValueRange" Value="Deger {max} ile {min} arasinda olmalidir." />
+    <Resource Key="Dashboard.Promos.Action.Validation.PromoNotFound" Value="Promosyon bulunamadi." />
+    <Resource Key="Dashboard.Promos.Action.Validation.UnableToUpdatePromo" Value="Promo güncellenemedi." />
+    <Resource Key="Dashboard.Promos.Action.Validation.UnableToCreatePromo" Value="Promo olusturulamiyor." />
+    <Resource Key="Dashboard.Promos.Action.Validation.UnableToDeletePromo" Value="Promo silinemedi." />
+    <Resource Key="Dashboard.Orders.Title" Value="Emirler" />
+    <Resource Key="Dashboard.Orders.Description" Value="Liste Siparisleri" />
+    <Resource Key="Dashboard.Orders.SearchByUserIDPlaceholder" Value="Kullanici Kimligi göre ara" />
+    <Resource Key="Dashboard.Orders.SearchByOrderIDPlaceholder" Value="Siparis Kimligi göre ara" />
+    <Resource Key="Dashboard.Orders.SearchByOrderStatus" Value="Siparis durumu ile ara" />
+    <Resource Key="Dashboard.Orders.OrderStatus" Value="Siparis durumu" />
+    <Resource Key="Dashboard.Orders.OrderStatus.Placed" Value="yerlestirilmis" />
+    <Resource Key="Dashboard.Orders.OrderStatus.Processing" Value="Isleme" />
+    <Resource Key="Dashboard.Orders.OrderStatus.Delivered" Value="teslim" />
+    <Resource Key="Dashboard.Orders.OrderStatus.Failed" Value="Basarisiz oldu" />
+    <Resource Key="Dashboard.Orders.OrderStatus.Cancelled" Value="Iptal edildi" />
+    <Resource Key="Dashboard.Orders.OrderStatus.OnHold" Value="Beklemede" />
+    <Resource Key="Dashboard.Orders.OrderStatus.WaitingForPayment" Value="Ödeme için bekleniyor" />
+    <Resource Key="Dashboard.Orders.OrderStatus.Refunded" Value="Geri Ödendi" />
+    <Resource Key="Dashboard.Orders.Search" Value="Arama" />
+    <Resource Key="Dashboard.Orders.Reset" Value="Sifirla" />
+    <Resource Key="Dashboard.Orders.List.OrderID" Value="Siparis Kimligi" />
+    <Resource Key="Dashboard.Orders.List.PlacedOn" Value="Date Yerlestirilmis" />
+    <Resource Key="Dashboard.Orders.List.OrderAmount" Value="Siparis miktari" />
+    <Resource Key="Dashboard.Orders.List.PaymentMethod" Value="Ödeme sekli" />
+    <Resource Key="Dashboard.Orders.List.Status" Value="durum" />
+    <Resource Key="Dashboard.Orders.List.Actions" Value="Hareketler" />
+    <Resource Key="Dashboard.Orders.List.UpdatedOn" Value="Tarihinde güncellendi" />
+    <Resource Key="Dashboard.Orders.List.Details" Value="ayrintilar" />
+    <Resource Key="Dashboard.Orders.List.Track" Value="Izlemek" />
+    <Resource Key="Dashboard.Orders.List.Invoice" Value="Fatura" />
+    <Resource Key="Dashboard.Orders.NoOrdersFound" Value="Siparis bulunamadi." />
+    <Resource Key="Dashboard.OrderDetails.Title" Value="Emirler" />
+    <Resource Key="Dashboard.OrderDetails.Description" Value="Liste Siparisleri" />
+    <Resource Key="Dashboard.OrderDetails.PrintInvoice" Value="Fatura yazdir" />
+    <Resource Key="Dashboard.OrderDetails.OrderStatus" Value="Siparis durumu" />
+    <Resource Key="Dashboard.OrderDetails.PaymentMethod" Value="Ödeme sekli" />
+    <Resource Key="Dashboard.OrderDetails.PaymentMethods.CreditCard" Value="Kredi karti" />
+    <Resource Key="Dashboard.OrderDetails.PaymentMethods.PayPal" Value="PayPal" />
+    <Resource Key="Dashboard.OrderDetails.PaymentMethods.CashOnDelivery" Value="Kapida ödeme" />
+    <Resource Key="Dashboard.OrderDetails.OrderTransactionID" Value="Islem Kimligi" />
+    <Resource Key="Dashboard.OrderDetails.OrderProcessor.AuthorizeNet" Value="Authorize.Net" />
+    <Resource Key="Dashboard.OrderDetails.OrderProcessor.PayPal" Value="PayPal" />
+    <Resource Key="Dashboard.OrderDetails.PlacedOn" Value="Date Yerlestirilmis" />
+    <Resource Key="Dashboard.OrderDetails.UpdatedOn" Value="Tarihinde güncellendi" />
+    <Resource Key="Dashboard.OrderDetails.OrderID" Value="Siparis Kimligi" />
+    <Resource Key="Dashboard.OrderDetails.OrderUniqueCode" Value="Siparis Benzersiz Kodu" />
+    <Resource Key="Dashboard.OrderDetails.OrderDetails" Value="siparis detaylari" />
+    <Resource Key="Dashboard.OrderDetails.Name" Value="ad" />
+    <Resource Key="Dashboard.OrderDetails.Price" Value="Fiyat" />
+    <Resource Key="Dashboard.OrderDetails.Quantity" Value="miktar" />
+    <Resource Key="Dashboard.OrderDetails.Total" Value="Toplam" />
+    <Resource Key="Dashboard.OrderDetails.TotalAmount" Value="Toplam tutar" />
+    <Resource Key="Dashboard.OrderDetails.Discount" Value="Indirim" />
+    <Resource Key="Dashboard.OrderDetails.PromoApplied" Value="Promosyon Uygulanan: {promo}" />
+    <Resource Key="Dashboard.OrderDetails.DeliveryCharges" Value="Teslimat ücretleri" />
+    <Resource Key="Dashboard.OrderDetails.CustomerDetails" Value="Müsteri detaylari" />
+    <Resource Key="Dashboard.OrderDetails.FullName" Value="Ad Soyad" />
+    <Resource Key="Dashboard.OrderDetails.Email" Value="E-posta" />
+    <Resource Key="Dashboard.OrderDetails.PhoneNumber" Value="Telefon numarasi" />
+    <Resource Key="Dashboard.OrderDetails.ShippingDetails" Value="Nakliye ayrintilari" />
+    <Resource Key="Dashboard.OrderDetails.Country" Value="ülke" />
+    <Resource Key="Dashboard.OrderDetails.City" Value="Kent" />
+    <Resource Key="Dashboard.OrderDetails.Address" Value="Adres" />
+    <Resource Key="Dashboard.OrderDetails.ZipCode" Value="Posta kodu" />
+    <Resource Key="Dashboard.OrderDetails.OrderHistory" Value="Siparis Geçmisi" />
+    <Resource Key="Dashboard.OrderDetails.Note" Value="Not" />
+    <Resource Key="Dashboard.OrderDetails.UpdateStatus" Value="Güncelleme durumu" />
+    <Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteRequired" Value="Not gereklidir." />
+    <Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteMaximumLength" Value="Maksimum Uzunluk {max}." />
+    <Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.UnableToUpdateOrderStatus" Value="Geçersiz veri. Siparis durumunu güncellenemedi." />
+    <Resource Key="Dashboard.OrderDetails.GuestOrder" Value="Misafir al" />
+    <Resource Key="Dashboard.OrderDetails.SeeAllOrdersFromCustomer" Value="Bu müsteriden tüm siparisleri bakin." />
+    <Resource Key="Dashboard.Comments.Title" Value="Yorumlar" />
+    <Resource Key="Dashboard.Comments.Description" Value="Yorumlar sayfasini listeleme." />
+    <Resource Key="Dashboard.Comments.SearchPlaceholder" Value="Yorumlar ara" />
+    <Resource Key="Dashboard.Comments.Search" Value="Arama" />
+    <Resource Key="Dashboard.Comments.Reset" Value="Sifirla" />
+    <Resource Key="Dashboard.Comments.CommentUserName" Value="{user}" />
+    <Resource Key="Dashboard.Comments.CommentTimestamp" Value="{datetime}" />
+    <Resource Key="Dashboard.Comments.DeleteComment" Value="Sil Yorum" />
+    <Resource Key="Dashboard.Comments.Action.Validation.NotAuthorizedToDeleteComment" Value="Bu yorumu silmek authorzed degildir." />
+    <Resource Key="Dashboard.Comments.Action.Validation.UnableToDeleteComment" Value="yorumunu silinemedi." />
+    <Resource Key="Dashboard.Comments.List.NoRecordFound" Value="Yorum bulunamadi." />
+    <Resource Key="Dashboard.Users.Title" Value="Kullanicilar" />
+    <Resource Key="Dashboard.Users.Description" Value="Kullanicilar sayfayi listeleme." />
+    <Resource Key="Dashboard.Users.SearchPlaceholder" Value="Kullanici adi veya E-posta ile ara" />
+    <Resource Key="Dashboard.Users.SelectByRole" Value="Role göre seç" />
+    <Resource Key="Dashboard.Users.Search" Value="Arama" />
+    <Resource Key="Dashboard.Users.Reset" Value="Sifirla" />
+    <Resource Key="Dashboard.Users.List.RegisteredOn" Value="Kaydedildi" />
+    <Resource Key="Dashboard.Users.List.Name" Value="ad" />
+    <Resource Key="Dashboard.Users.List.Username" Value="Kullanici adi" />
+    <Resource Key="Dashboard.Users.List.Email" Value="E-posta" />
+    <Resource Key="Dashboard.Users.List.Roles" Value="Roller" />
+    <Resource Key="Dashboard.Users.List.Actions" Value="Hareketler" />
+    <Resource Key="Dashboard.Users.List.MoreDetails" Value="Daha fazla detay" />
+    <Resource Key="Dashboard.Users.List.NoRecordFound" Value="Kullanici bulunamadi." />
+    <Resource Key="Dashboard.UserDetails.Title" Value="Kullanici detaylari" />
+    <Resource Key="Dashboard.UserDetails.Description" Value="Kullanici detaylari." />
+    <Resource Key="Dashboard.UserDetails.Username" Value="Kullanici adi" />
+    <Resource Key="Dashboard.UserDetails.Location" Value="yer" />
+    <Resource Key="Dashboard.UserDetails.Info" Value="Bilgi" />
+    <Resource Key="Dashboard.UserDetails.Roles" Value="Roller" />
+    <Resource Key="Dashboard.UserDetails.Orders" Value="Emirler" />
+    <Resource Key="Dashboard.UserDetails.Comments" Value="Yorumlar" />
+    <Resource Key="Dashboard.UserDetails.NoUserFound" Value="Kullanici bulunamadi." />
+    <Resource Key="Dashboard.UserDetails.Info.FullName" Value="Ad Soyad" />
+    <Resource Key="Dashboard.UserDetails.Info.PhoneNumber" Value="Telefon numarasi" />
+    <Resource Key="Dashboard.UserDetails.Info.Country" Value="ülke" />
+    <Resource Key="Dashboard.UserDetails.Info.City" Value="Kent" />
+    <Resource Key="Dashboard.UserDetails.Info.Address" Value="Adres" />
+    <Resource Key="Dashboard.UserDetails.Info.ZipCode" Value="Posta kodu" />
+    <Resource Key="Dashboard.UserDetails.Info.Email" Value="E-posta" />
+    <Resource Key="Dashboard.UserDetails.Info.Username" Value="Kullanici adi" />
+    <Resource Key="Dashboard.UserDetails.Info.Update" Value="Güncelleme" />
+    <Resource Key="Dashboard.UserDetails.Info.Delete" Value="Sil" />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameRequired" Value="Tam adi gereklidir." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameMaximumLength" Value="Maksimum Uzunluk {max}." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.CountryRequired" Value="Ülke gereklidir." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.CityRequired" Value="Sehir gereklidir." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.AddressRequired" Value="Adres gereklidir." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.DataNotFormatted" Value="Veri biçimlendirilmemis." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.UserNotFound" Value="Kullanici bulunamadi." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.UnabletoUpdateInfo" Value="bilgi güncellenemedi." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.InfoUpdated" Value="Bilgi basariyla güncellendi." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.UnabletoDeleteUser" Value="Kullanici silinemiyor." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.UserDeleted" Value="Kullanici basariyla silindi." />
+    <Resource Key="Dashboard.UserDetails.Roles.CurrentUserRoles" Value="Geçerli Kullanici Rolleri" />
+    <Resource Key="Dashboard.UserDetails.Roles.RemoveUserRole" Value="Kaldir Rolü" />
+    <Resource Key="Dashboard.UserDetails.Roles.UserDoesntHaveRoles" Value="Kullanici herhangi bir rolleri yoktur." />
+    <Resource Key="Dashboard.UserDetails.Roles.AssignNewRoles" Value="Ata Yeni Rol" />
+    <Resource Key="Dashboard.UserDetails.Roles.SelectRole" Value="Rol Seçin" />
+    <Resource Key="Dashboard.UserDetails.Roles.AssignUserRole" Value="atama Rol" />
+    <Resource Key="Dashboard.UserDetails.Roles.Action.Validation.SelectValidRole" Value="Rol seçiniz." />
+    <Resource Key="Dashboard.UserDetails.Orders.SearchByOrderIDPlaceholder" Value="Siparis Kimligi göre ara" />
+    <Resource Key="Dashboard.UserDetails.Orders.SelectByOrderStatus" Value="Siparis durumu göre seç ..." />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Placed" Value="yerlestirilmis" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Processing" Value="Isleme" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Delivered" Value="teslim" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Failed" Value="Basarisiz oldu" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Cancelled" Value="Iptal edildi" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.OnHold" Value="Beklemede" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.WaitingForPayment" Value="Ödeme için bekleniyor" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Refunded" Value="Geri Ödendi" />
+    <Resource Key="Dashboard.UserDetails.Orders.Search" Value="Arama" />
+    <Resource Key="Dashboard.UserDetails.Orders.Reset" Value="Sifirla" />
+    <Resource Key="Dashboard.UserDetails.Orders.PlacedOnDate" Value="Date Yerlestirilmis" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderAmount" Value="Siparis miktari" />
+    <Resource Key="Dashboard.UserDetails.Orders.PaymentMethod" Value="Ödeme sekli" />
+    <Resource Key="Dashboard.UserDetails.Orders.Status" Value="durum" />
+    <Resource Key="Dashboard.UserDetails.Orders.Actions" Value="Hareketler" />
+    <Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.CreditCard" Value="Kredi karti" />
+    <Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.PayPal" Value="PayPal" />
+    <Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.CashOnDelivery" Value="Kapida ödeme" />
+    <Resource Key="Dashboard.UserDetails.Orders.UpdatedOn" Value="Tarihinde güncellendi" />
+    <Resource Key="Dashboard.UserDetails.Orders.Details" Value="ayrintilar" />
+    <Resource Key="Dashboard.UserDetails.Orders.Track" Value="Izlemek" />
+    <Resource Key="Dashboard.UserDetails.Orders.NoOrdersFound" Value="Siparis bulunamadi." />
+    <Resource Key="Dashboard.UserDetails.Comments.SearchCommentsPlaceholder" Value="Yorumlar ara" />
+    <Resource Key="Dashboard.UserDetails.Comments.SearchComments" Value="Arama" />
+    <Resource Key="Dashboard.UserDetails.Comments.Reset" Value="Sifirla" />
+    <Resource Key="Dashboard.UserDetails.Comments.CommentUserName" Value="{user}" />
+    <Resource Key="Dashboard.UserDetails.Comments.CommentTimestamp" Value="{datetime}" />
+    <Resource Key="Dashboard.UserDetails.Comments.DeleteComment" Value="Sil Yorum" />
+    <Resource Key="Dashboard.UserDetails.Comments.NoComments" Value="Yorum bulunamadi." />
+    <Resource Key="Dashboard.Roles.Title" Value="Roller" />
+    <Resource Key="Dashboard.Roles.Description" Value="Rolleri listeleme." />
+    <Resource Key="Dashboard.Roles.SearchPlaceholder" Value="Arama Rolü" />
+    <Resource Key="Dashboard.Roles.Search" Value="Arama" />
+    <Resource Key="Dashboard.Roles.Reset" Value="Sifirla" />
+    <Resource Key="Dashboard.Roles.CreateRole" Value="Rol olustur" />
+    <Resource Key="Dashboard.Roles.CreateNewRole" Value="Yeni Rol Olustur" />
+    <Resource Key="Dashboard.Roles.Create.Name" Value="Rol ismi" />
+    <Resource Key="Dashboard.Roles.Create.NamePlaceholder" Value="Ekleme Rol Adi" />
+    <Resource Key="Dashboard.Roles.Close" Value="Kapat" />
+    <Resource Key="Dashboard.Roles.Save" Value="Kayit etmek" />
+    <Resource Key="Dashboard.Roles.Save.Validations.NameRequired" Value="Rol Adi gereklidir." />
+    <Resource Key="Dashboard.Roles.Save.Validations.NameMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="Dashboard.Roles.Save.Validations.NameMaximumLength" Value="Maksimum Uzunluk {max}." />
+    <Resource Key="Dashboard.Roles.Role" Value="rol" />
+    <Resource Key="Dashboard.Roles.Users" Value="Kullanicilar" />
+    <Resource Key="Dashboard.Roles.Actions" Value="Hareketler" />
+    <Resource Key="Dashboard.Roles.MoreDetails" Value="Daha fazla detay" />
+    <Resource Key="Dashboard.Roles.NoRolesFound" Value="Hiçbir Roller bulundu." />
+    <Resource Key="Dashboard.RoleDetails.Title" Value="Rol Detaylari" />
+    <Resource Key="Dashboard.RoleDetails.Description" Value="Rol Detaylari" />
+    <Resource Key="Dashboard.RoleDetails.Info" Value="Bilgi" />
+    <Resource Key="Dashboard.RoleDetails.Users" Value="Kullanicilar" />
+    <Resource Key="Dashboard.RoleDetails.Info.Name" Value="ad" />
+    <Resource Key="Dashboard.RoleDetails.Info.Update" Value="Güncelleme" />
+    <Resource Key="Dashboard.RoleDetails.Info.Delete" Value="Sil" />
+    <Resource Key="Dashboard.RoleDetails.Info.AdministratorRoleNotification" Value="o yetkilendirme için kullanildigi için bu rol güncellenmis veya silinmesine izin verilmez." />
+    <Resource Key="Dashboard.RoleDetails.Info.RoleInfoUpdated" Value="Rol bilgisi güncellendi." />
+    <Resource Key="Dashboard.RoleDetails.Users.UsersWithRole" Value="Bu Role sahip kullanicilar" />
+    <Resource Key="Dashboard.RoleDetails.Users.MoreDetails" Value="Daha fazla detay" />
+    <Resource Key="Dashboard.RoleDetails.Users.NoUsersWithRole" Value="Bu rol kullaniciya sahip tasimiyor." />
+    <Resource Key="Dashboard.Configurations.Title" Value="yapilandirmalar" />
+    <Resource Key="Dashboard.Configurations.Description" Value="Yapilandirmalari listeleme." />
+    <Resource Key="Dashboard.Configurations.SearchPlaceholder" Value="Arama Yapilandirmalari" />
+    <Resource Key="Dashboard.Configurations.SelectByConfigurationType" Value="Yapilandirma Türüne göre seç" />
+    <Resource Key="Dashboard.Configurations.ConfigurationTypes.Site" Value="yer" />
+    <Resource Key="Dashboard.Configurations.ConfigurationTypes.Sliders" Value="kaydirici" />
+    <Resource Key="Dashboard.Configurations.ConfigurationTypes.Promotions" Value="Promosyonlar" />
+    <Resource Key="Dashboard.Configurations.ConfigurationTypes.SocialLinks" Value="Sosyal Linkler" />
+    <Resource Key="Dashboard.Configurations.ConfigurationTypes.Other" Value="Diger" />
+    <Resource Key="Dashboard.Configurations.Search" Value="Arama" />
+    <Resource Key="Dashboard.Configurations.Reset" Value="Sifirla" />
+    <Resource Key="Dashboard.Configurations.List.Key" Value="anahtar" />
+    <Resource Key="Dashboard.Configurations.List.Value" Value="deger" />
+    <Resource Key="Dashboard.Configurations.List.ConfigurationType" Value="Yapilandirma Tipi" />
+    <Resource Key="Dashboard.Configurations.List.Actions" Value="Hareketler" />
+    <Resource Key="Dashboard.Configurations.List.Edit" Value="Düzenle" />
+    <Resource Key="Dashboard.Configurations.NoConfigurationFound" Value="Hayir Yapilandirma bulundu" />
+    <Resource Key="Dashboard.Configurations.EditConfiguration" Value="Düzenleme Yapilandirma" />
+    <Resource Key="Dashboard.Configurations.UnableToUpdateConfigurations" Value="yapilandirmalari güncellenemedi." />
+    <Resource Key="Dashboard.Configurations.Edit.Value" Value="deger" />
+    <Resource Key="Dashboard.Configurations.Edit.SliderPicture" Value="sürgü Resim" />
+    <Resource Key="Dashboard.Configurations.Edit.Heading" Value="Baslik" />
+    <Resource Key="Dashboard.Configurations.Edit.Paragraph" Value="Paragraf" />
+    <Resource Key="Dashboard.Configurations.Edit.LinkURL" Value="baglanti adresi" />
+    <Resource Key="Dashboard.Configurations.Edit.Close" Value="Kapat" />
+    <Resource Key="Dashboard.Configurations.Edit.Save" Value="Kayit etmek" />
+    <Resource Key="Dashboard.Configurations.Edit.Validation.ConfigurationValueRequited" Value="Yapilandirma Degeri gereklidir." />
+    <Resource Key="Dashboard.Configurations.ConfigurationNotFound" Value="Yapilandirma bulunamadi." />
+    <Resource Key="Dashboard.Languages.Title" Value="Diller" />
+    <Resource Key="Dashboard.Languages.Description" Value="listeleme Diller" />
+    <Resource Key="Dashboard.Languages.SearchPlaceholder" Value="Arama Diller" />
+    <Resource Key="Dashboard.Languages.Search" Value="Arama" />
+    <Resource Key="Dashboard.Languages.Reset" Value="Sifirla" />
+    <Resource Key="Dashboard.Languages.AddLanguage" Value="Dil ekle" />
+    <Resource Key="Dashboard.Languages.List.Icon" Value="ikon" />
+    <Resource Key="Dashboard.Languages.List.Name" Value="ad" />
+    <Resource Key="Dashboard.Languages.List.ShortCode" Value="Kisa kod" />
+    <Resource Key="Dashboard.Languages.List.Status" Value="durum" />
+    <Resource Key="Dashboard.Languages.List.Actions" Value="Hareketler" />
+    <Resource Key="Dashboard.Languages.DefaultSiteLanguage" Value="Site Language Standart" />
+    <Resource Key="Dashboard.Languages.LanguageWithoutResources" Value="Bu dil herhangi kaynaklari yok. Bu dilde siteyi çalistirmak için kaynak yüklemek ediniz." />
+    <Resource Key="Dashboard.Languages.List.Enabled" Value="Etkin" />
+    <Resource Key="Dashboard.Languages.List.Disabled" Value="engelli" />
+    <Resource Key="Dashboard.Languages.List.Edit" Value="Düzenle" />
+    <Resource Key="Dashboard.Languages.List.Disable" Value="Devre Disi" />
+    <Resource Key="Dashboard.Languages.List.Enable" Value="etkinlestirme" />
+    <Resource Key="Dashboard.Languages.ConfirmDisableWarning" Value="Eger bu dili devre disi birakmak istediginiz emin misiniz?" />
+    <Resource Key="Dashboard.Languages.ConfirmDisable" Value="Evet, onu devre disi birakin!" />
+    <Resource Key="Dashboard.Languages.ConfirmDisableCancel" Value="No, Dont devre disi." />
+    <Resource Key="Dashboard.Languages.List.NoLanguagesFound" Value="Hiçbir Diller bulundu." />
+    <Resource Key="Dashboard.Languages.EditLangaugeTitle" Value="Düzenleme Dil" />
+    <Resource Key="Dashboard.Languages.EditLanguageDescription" Value="Düzenleme Dil" />
+    <Resource Key="Dashboard.Languages.CreateLanguageTitle" Value="Dil olustur" />
+    <Resource Key="Dashboard.Languages.CreateLanguageDescription" Value="Yeni Bir Dil Olusturmak" />
+    <Resource Key="Dashboard.Languages.Action.Name" Value="ad" />
+    <Resource Key="Dashboard.Languages.Action.ShortCode" Value="Kisa kod" />
+    <Resource Key="Dashboard.Languages.Action.Enabled" Value="Etkin" />
+    <Resource Key="Dashboard.Languages.Action.MakeDefault" Value="Varsayilan Yap Dili" />
+    <Resource Key="Dashboard.Languages.Action.IsRTL" Value="is RTL" />
+    <Resource Key="Dashboard.Languages.Action.Icon" Value="ikon" />
+    <Resource Key="Dashboard.Languages.Action.SelectLanguageIcon" Value="Dil Seç Simge" />
+    <Resource Key="Dashboard.Languages.Action.SearchForIcon" Value="Simge ara" />
+    <Resource Key="Dashboard.Languages.Action.SearchIconPlaceholder" Value="Ülke Kisa Ad yani ABD veya GB ara" />
+    <Resource Key="Dashboard.Languages.Action.Update" Value="Güncelleme" />
+    <Resource Key="Dashboard.Languages.Action.Disable" Value="Devre Disi" />
+    <Resource Key="Dashboard.Languages.Action.Enable" Value="etkinlestirme" />
+    <Resource Key="Dashboard.Languages.Action.Save" Value="Kayit etmek" />
+    <Resource Key="Dashboard.Languages.Action.Cancel" Value="Iptal etmek" />
+    <Resource Key="Dashboard.Languages.Action.Validation.NameRequired" Value="Isim gerekli." />
+    <Resource Key="Dashboard.Languages.Action.Validation.NameMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="Dashboard.Languages.Action.Validation.NameMaximumLength" Value="Maksimum Uzunluk {max}." />
+    <Resource Key="Dashboard.Languages.Action.Validation.ShortCodeRequired" Value="Kisa Kod gereklidir." />
+    <Resource Key="Dashboard.Languages.Action.Validation.ShortCodeMinimumLength" Value="Minimum uzunluk {min} seklindedir." />
+    <Resource Key="Dashboard.Languages.Action.Validation.ShortCodeMaximumLength" Value="Maksimum Uzunluk {max}." />
+    <Resource Key="Dashboard.Languages.Action.ImportResources" Value="Ithal Kaynaklari" />
+    <Resource Key="Dashboard.Languages.Action.ChooseFile" Value="Dosya seçin" />
+    <Resource Key="Dashboard.Languages.Action.Import" Value="Ithalat" />
+    <Resource Key="Dashboard.Languages.Action.ExportResources" Value="Ihracat Kaynaklari" />
+    <Resource Key="Dashboard.Languages.Action.ExportLanguageResources" Value="Ihracat Dil Kaynaklari" />
+    <Resource Key="Dashboard.Languages.Action.Export" Value="Ihracat" />
+    <Resource Key="Dashboard.Languages.Action.ExportNoResourcesWarning" Value="Bu dil herhangi kaynaklari yok. dil paketi aktarin." />
+    <Resource Key="Dashboard.Languages.Action.ResourcesImportedSuccess" Value="Kaynaklar basarili bir sekilde alindi." />
+    <Resource Key="Dashboard.Languages.Action.ResourcesExportingWarning" Value="kaynak dosyasi hazirlama biraz zaman alabilir. Sistem indir dosyasi olusturmak lütfen bekleyin." />
+    <Resource Key="Dashboard.Languages.Action.Validation.SelectFileToUpload" Value="yüklenecek dosyayi seçin." />
+    <Resource Key="Dashboard.Languages.Action.Validation.SelectValidFileToUpload" Value="Dogru biçimde bir dosya yükle." />
+    <Resource Key="Dashboard.Languages.Action.Validation.LanguageNotFound" Value="Dil bulunamadi." />
+    <Resource Key="Dashboard.Languages.Action.Validation.DefaultLanguageIsMust" Value="varsayilan bir dil olmali. Varsayilan olarak baska bir dil kurmak ve daha sonra bu dili güncelleyin." />
+    <Resource Key="Dashboard.Languages.Action.Validation.UnableToUpdateLanguage" Value="Dil güncellenemedi." />
+    <Resource Key="Dashboard.Languages.Action.Validation.UnableToCreateLanguage" Value="Dil olusturulamiyor." />
+    <Resource Key="Dashboard.Languages.Action.Validation.DefaultLanguageCantBeDisabled" Value="Varsayilan dil özürlü yapilamaz." />
+    <Resource Key="Dashboard.Languages.Action.Validation.NoResourcesInFile" Value="Hayir Kaynaklari dosyasinda bulunan." />
+    <Resource Key="Dashboard.Languages.Action.Validation.UnableToImportResources" Value="ithalat kaynaklarina edilemiyor." />
+    <Resource Key="Dashboard.NewsletterSubscribers.Title" Value="Bülten Aboneler" />
+    <Resource Key="Dashboard.NewsletterSubscribers.Description" Value="listeleme Bülten abonesi" />
+    <Resource Key="Dashboard.NewsletterSubscribers.SearchPlaceholder" Value="E-posta ile ara." />
+    <Resource Key="Dashboard.NewsletterSubscribers.Search" Value="Arama" />
+    <Resource Key="Dashboard.NewsletterSubscribers.Reset" Value="Sifirla" />
+    <Resource Key="Dashboard.NewsletterSubscribers.List.Email" Value="E-posta" />
+    <Resource Key="Dashboard.NewsletterSubscribers.List.UserID" Value="Kullanici kimligi" />
+    <Resource Key="Dashboard.NewsletterSubscribers.List.IsVerified" Value="E-posta Dogrulandi" />
+    <Resource Key="Dashboard.NewsletterSubscribers.NoRecordFound" Value="Kayit Bulunamadi." />
+</Language>

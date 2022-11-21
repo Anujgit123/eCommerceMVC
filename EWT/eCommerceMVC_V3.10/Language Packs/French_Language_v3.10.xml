@@ -1,0 +1,880 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language>
+    <Resource Key="PP.Menu" Value="Menu" />
+    <Resource Key="PP.Message.Success" Value="Succès!" />
+    <Resource Key="PP.Message.Warning" Value="Attention!" />
+    <Resource Key="PP.Message.Error" Value="Erreur!" />
+    <Resource Key="PP.Message.Thanks" Value="Merci" />
+    <Resource Key="PP.Message.GenericErrorMessage" Value="Une erreur est survenue." />
+    <Resource Key="PP.Message.OK" Value="D'accord" />
+    <Resource Key="PP.Header.SearchPlaceholder" Value="Que cherchez-vous?" />
+    <Resource Key="PP.Header.Menu.HiUser" Value="Salut {user}!" />
+    <Resource Key="PP.Header.Menu.Account" Value="Compte" />
+    <Resource Key="PP.Header.Menu.Categories" Value="Catégories" />
+    <Resource Key="PP.Header.Menu.Home" Value="Accueil" />
+    <Resource Key="PP.Header.Menu.Products" Value="Des produits" />
+    <Resource Key="PP.Header.Menu.Tracking" Value="suivi" />
+    <Resource Key="PP.Header.Menu.Checkout" Value="Check-out" />
+    <Resource Key="PP.Header.Menu.ShoppingCart" Value="Chariot" />
+    <Resource Key="PP.Header.Menu.Dashboard" Value="Tableau de bord" />
+    <Resource Key="PP.Header.Menu.Profile" Value="Profil" />
+    <Resource Key="PP.Header.Menu.LogOff" Value="Se déconnecter" />
+    <Resource Key="PP.Header.Menu.Login" Value="S'identifier" />
+    <Resource Key="PP.Footer.Information" Value="Information" />
+    <Resource Key="PP.Footer.Information.AboutUs" Value="À propos de nous" />
+    <Resource Key="PP.Footer.Information.ContactUs" Value="Nous contacter" />
+    <Resource Key="PP.Footer.Information.PrivacyPolicy" Value="Politique de confidentialité" />
+    <Resource Key="PP.Footer.Information.RefundPolicy" Value="Politique de remboursement" />
+    <Resource Key="PP.Footer.Information.TermsAndConditions" Value="Termes et conditions" />
+    <Resource Key="PP.Footer.Account" Value="Compte" />
+    <Resource Key="PP.Footer.Account.MyProfile" Value="Mon profil" />
+    <Resource Key="PP.Footer.Account.MyOrders" Value="Mes commandes" />
+    <Resource Key="PP.Footer.Account.TrackOrder" Value="Suivi de commande" />
+    <Resource Key="PP.Footer.Account.MyCart" Value="mon panier" />
+    <Resource Key="PP.Footer.Account.Checkout" Value="Check-out" />
+    <Resource Key="PP.Footer.NewsLetter" Value="Joignez-vous à notre lettre Nouvelles" />
+    <Resource Key="PP.Footer.NewsLetter.GetOurEmailUpdates" Value="Recevoir des mises à jour sur nos offres spéciales." />
+    <Resource Key="PP.Footer.NewsLetter.EnterYourEmailPlaceholder" Value="Entrez votre adresse email." />
+    <Resource Key="PP.Footer.NewsLetter.Subscribe" Value="Souscrire" />
+    <Resource Key="PP.Footer.CopyrightsMessage" Value="{application} {date}. Tous les droits sont réservés." />
+    <Resource Key="PP.Shopping.AddToCart" Value="Ajouter au chariot" />
+    <Resource Key="PP.Shopping.ViewProduct" Value="Vue" />
+    <Resource Key="PP.Shopping.NoProductsInCart" Value="Aucun produit dans le panier." />
+    <Resource Key="PP.Shopping.CartTotal" Value="panier total" />
+    <Resource Key="PP.Shopping.CartDetails" Value="Panier Détails" />
+    <Resource Key="PP.Shopping.Checkout" Value="Check-out" />
+    <Resource Key="PP.Shopping.ItemAddingToCart" Value="Ajout produit au panier" />
+    <Resource Key="PP.Shopping.ItemAddedToCart" Value="Produit ajouté au panier." />
+    <Resource Key="PP.Shopping.CartItemQuantityUpdated" Value="quantité de produit mis à jour." />
+    <Resource Key="PP.Shopping.ItemNotFound" Value="Produit non trouvé." />
+    <Resource Key="PP.Home.Title" Value="Site Web de commerce électronique en ASP .Net MVC" />
+    <Resource Key="PP.Home.Description" Value="Ce site de commerce électronique de démonstration est développé avec ASP .Net MVC et C # en tant que langage de programmation côté serveur. Vérifiez tous les e-Commerce dispose ici." />
+    <Resource Key="PP.Home.FeaturedCategories.BrowseCategoryProducts" Value="Parcourir {catégorie} produits." />
+    <Resource Key="PP.Home.FeaturedCategories.DiscoverMoreProducts" Value="Découvrir plus" />
+    <Resource Key="PP.Home.FeaturedCategories.Products.Featured" Value="En vedette" />
+    <Resource Key="PP.Home.SearchMoreProducts" Value="Chercher plus" />
+    <Resource Key="PP.Home.Showcase.FastDelivery" Value="Livraison rapide" />
+    <Resource Key="PP.Home.Showcase.OnTimeDelivery" Value="100% sur le temps de livraison" />
+    <Resource Key="PP.Home.Showcase.247Support" Value="24/7 Soutien" />
+    <Resource Key="PP.Home.Showcase.AlwaysReadyToHelp" Value="Toujours prêt à aider" />
+    <Resource Key="PP.Home.Showcase.SecurePayments" Value="Paiements sécurisés" />
+    <Resource Key="PP.Home.Showcase.SecurePaymentOptions" Value="Options de paiement sécurisé" />
+    <Resource Key="PP.Home.Showcase.OurPartners" Value="Nos partenaires" />
+    <Resource Key="PP.Search.Title" Value="Recherche de produits sur {application}" />
+    <Resource Key="PP.Search.TitleWithCategory" Value="Rechercher {category} produits sur {application}" />
+    <Resource Key="PP.Search.Description" Value="Ce site de commerce électronique de démonstration est développé avec ASP .Net MVC et C # en tant que langage de programmation côté serveur. Vérifiez tous les e-Commerce dispose ici." />
+    <Resource Key="PP.Search.SearchProducts" Value="Recherche de produits" />
+    <Resource Key="PP.Search.SearchProductsPlaceholder" Value="Recherche de produits" />
+    <Resource Key="PP.Search.Categories" Value="Catégories" />
+    <Resource Key="PP.Search.Categories.AllCategories" Value="toutes catégories" />
+    <Resource Key="PP.Search.PriceRange" Value="Échelle des prix" />
+    <Resource Key="PP.Search.Filter" Value="Filtre" />
+    <Resource Key="PP.Search.Reset" Value="Réinitialiser" />
+    <Resource Key="PP.Search.SortBy" Value="Trier par: {sortby}" />
+    <Resource Key="PP.Search.SortBy.LatestProducts" Value="derniers produits" />
+    <Resource Key="PP.Search.SortBy.PriceLowToHigh" Value="Prix bas à élevé" />
+    <Resource Key="PP.Search.SortBy.PriceHighToLow" Value="Prix - décroissant" />
+    <Resource Key="PP.Search.ShowNoOfProduct" Value="Afficher {number} Produits" />
+    <Resource Key="PP.Search.ShowingProductRange" Value="Affichage {startingIndex} à {endingIndex} de {total}" />
+    <Resource Key="PP.Search.Products.Featured" Value="En vedette" />
+    <Resource Key="PP.Search.ProductsNotFound" Value="Désolé! Aucun produit trouvé." />
+    <Resource Key="PP.ProductDetails.AverageRatingCount" Value="Note moyenne: {averageRating} Etoiles de {totalComments} commentaires" />
+    <Resource Key="PP.ProductDetails.ProductStockQuantity" Value="{quantity} disponible en stock." />
+    <Resource Key="PP.ProductDetails.Description" Value="La description" />
+    <Resource Key="PP.ProductDetails.ProductSpecifications" Value="Spécifications du produit" />
+    <Resource Key="PP.ProductDetails.Reviews" Value="Commentaires" />
+    <Resource Key="PP.ProductDetails.Comment" Value="Commentaire" />
+    <Resource Key="PP.ProductDetails.Comments" Value="commentaires" />
+    <Resource Key="PP.ProductDetails.UserRating" Value="Note des utilisateurs: {commentRating}" />
+    <Resource Key="PP.ProductDetails.NoCommentsOnProduct" Value="Il n'y a pas de commentaires sur ces produits. Soyez le premier à commenter." />
+    <Resource Key="PP.ProductDetails.LeaveComment" Value="Laissez un commentaire" />
+    <Resource Key="PP.ProductDetails.YourRating" Value="Votre note" />
+    <Resource Key="PP.ProductDetails.Star" Value="Étoile" />
+    <Resource Key="PP.ProductDetails.CommentPlaceholder" Value="Écrivez votre commentaire." />
+    <Resource Key="PP.ProductDetails.LeaveYourComment" Value="Laisse un commentaire" />
+    <Resource Key="PP.ProductDetails.LoginToComment" Value="Vous devez vous connecter pour laisser des commentaires." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.TextRequired" Value="S'il vous plaît ajouter un commentaire valide." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.TextMinLength" Value="Longueur minimum est {min}." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.TextMaxLength" Value="Longueur maximale est {max}." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.EntityRequired" Value="Type de commentaire non identifié." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.RecordIDRequired" Value="Commentaire Enregistrement non identifié." />
+    <Resource Key="PP.ProductDetails.CommentDeleteWarning" Value="êtes-vous sûr de vouloir supprimer ce commentaire?" />
+    <Resource Key="PP.ProductDetails.CommentDeleteConfirm" Value="Oui, supprimez-le!" />
+    <Resource Key="PP.ProductDetails.CommentDeleteCancel" Value="Non, Ne pas supprimer." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.NotAuthorizedToDeleteComment" Value="Vous n'êtes pas authorzed supprimer ce commentaire." />
+    <Resource Key="PP.ProductDetails.Comments.Validations.UnableToDeleteComment" Value="Impossible de supprimer un commentaire." />
+    <Resource Key="PP.ProductDetails.FeaturedProducts" Value="Produits populaires" />
+    <Resource Key="PP.ProductDetails.RelatedProducts" Value="Produits connexes" />
+    <Resource Key="PP.ProductDetails.RelatedProductsFeatured" Value="En vedette" />
+    <Resource Key="PP.Tracking.Title" Value="Suivi de commande" />
+    <Resource Key="PP.Tracking.Description" Value="Vous pouvez vérifier l'état de votre commande. S'il vous plaît entrer le numéro de commande et vous obtiendrez des informations relatives à votre commande." />
+    <Resource Key="PP.Tracking.OrderID" Value="numéro de commande" />
+    <Resource Key="PP.Tracking.OrderIDPlaceholder" Value="Entrez numéro de commande à la piste" />
+    <Resource Key="PP.Tracking.TrackOrder" Value="Suivi de commande" />
+    <Resource Key="PP.Tracking.OrderPlacedSuccessMessage" Value="Je vous remercie. Votre commande a bien été reçue. Vous pouvez accéder à vos données de commande à tout moment dans votre section commandes de profil." />
+    <Resource Key="PP.Tracking.PrintInvoice" Value="La facture d'impression" />
+    <Resource Key="PP.Tracking.OrderStatus" Value="Statut de la commande" />
+    <Resource Key="PP.Tracking.OrderStatus.Placed" Value="Mis" />
+    <Resource Key="PP.Tracking.OrderStatus.Processing" Value="En traitement" />
+    <Resource Key="PP.Tracking.OrderStatus.Delivered" Value="Livré" />
+    <Resource Key="PP.Tracking.OrderStatus.Failed" Value="Échoué" />
+    <Resource Key="PP.Tracking.OrderStatus.Cancelled" Value="Annulé" />
+    <Resource Key="PP.Tracking.OrderStatus.OnHold" Value="En attente" />
+    <Resource Key="PP.Tracking.OrderStatus.WaitingForPayment" Value="En attente de paiement" />
+    <Resource Key="PP.Tracking.OrderStatus.Refunded" Value="remboursé" />
+    <Resource Key="PP.Tracking.PaymentMethod" Value="Mode de paiement" />
+    <Resource Key="PP.Tracking.PaymentMethods.CreditCard" Value="Carte de crédit" />
+    <Resource Key="PP.Tracking.PaymentMethods.PayPal" Value="Pay Pal" />
+    <Resource Key="PP.Tracking.PaymentMethods.CashOnDelivery" Value="Paiement à la livraison" />
+    <Resource Key="PP.Tracking.Date" Value="Date" />
+    <Resource Key="PP.Tracking.UpdatedOn" Value="Mis à jour le" />
+    <Resource Key="PP.Tracking.OrderUniqueCode" Value="Code commande unique" />
+    <Resource Key="PP.Tracking.OrderDetails" Value="détails de la commande" />
+    <Resource Key="PP.Tracking.Item" Value="Article" />
+    <Resource Key="PP.Tracking.Price" Value="Prix" />
+    <Resource Key="PP.Tracking.Quantity" Value="Quantité" />
+    <Resource Key="PP.Tracking.Total" Value="Total" />
+    <Resource Key="PP.Tracking.SubTotal" Value="sous-total" />
+    <Resource Key="PP.Tracking.Discount" Value="Remise" />
+    <Resource Key="PP.Tracking.ShippingCharges" Value="Frais d'expédition" />
+    <Resource Key="PP.Tracking.DeliveryCharges" Value="Frais de livraison" />
+    <Resource Key="PP.Tracking.FinalTotal" Value="totale finale" />
+    <Resource Key="PP.Tracking.PromoApplied" Value="Promo appliquée {promocode}." />
+    <Resource Key="PP.Tracking.ContactDetails" Value="Détails du contact" />
+    <Resource Key="PP.Tracking.CustomerName" Value="Nom du client" />
+    <Resource Key="PP.Tracking.CustomerEmail" Value="Email client" />
+    <Resource Key="PP.Tracking.CustomerPhone" Value="Téléphone client" />
+    <Resource Key="PP.Tracking.GuestOrder" Value="Invité ordre" />
+    <Resource Key="PP.Tracking.ShippingDetails" Value="Les détails d'expédition" />
+    <Resource Key="PP.Tracking.ShippingCountry" Value="Pays" />
+    <Resource Key="PP.Tracking.ShippingCity" Value="Ville" />
+    <Resource Key="PP.Tracking.ShippingAddress" Value="Adresse" />
+    <Resource Key="PP.Tracking.ShippingZipCode" Value="Code postal" />
+    <Resource Key="PP.Tracking.OrderHistory" Value="Historique des commandes" />
+    <Resource Key="PP.Tracking.OrderTrackingNotAccessible" Value="Désolé! vous ne pouvez pas vérifier ce détail de la commande." />
+    <Resource Key="PP.Tracking.OrderCantBeTracked" Value="Désolé! Nous ne pouvons pas suivre les détails de votre commande." />
+    <Resource Key="PP.Cart.Title" Value="Votre Panier" />
+    <Resource Key="PP.Cart.Description" Value="Les détails de votre panier." />
+    <Resource Key="PP.Cart.ItemImage" Value="Image" />
+    <Resource Key="PP.Cart.ItemName" Value="Article" />
+    <Resource Key="PP.Cart.ItemPrice" Value="Prix" />
+    <Resource Key="PP.Cart.ItemQuantity" Value="Quantité" />
+    <Resource Key="PP.Cart.ItemTotal" Value="Total" />
+    <Resource Key="PP.Cart.RemoveItem" Value="Retirer l'objet" />
+    <Resource Key="PP.Cart.EnterPromoCode" Value="Entrez Voucher Code Promo /" />
+    <Resource Key="PP.Cart.ApplyPromo" Value="Appliquer" />
+    <Resource Key="PP.Cart.PromoAppliedSuccessfully" Value="Succès. Profitez remise de {discount}." />
+    <Resource Key="PP.Cart.PromoExpired" Value="Désolé. Ce promo / bon a expiré." />
+    <Resource Key="PP.Cart.InvalidPromo" Value="promo / coupon non valide." />
+    <Resource Key="PP.Cart.UpdateCart" Value="Mise à jour panier" />
+    <Resource Key="PP.Cart.ContinueShopping" Value="Continuer vos achats" />
+    <Resource Key="PP.Cart.SubTotal" Value="sous-total" />
+    <Resource Key="PP.Cart.Discount" Value="Remise" />
+    <Resource Key="PP.Cart.ShippingCharges" Value="Frais d'expédition" />
+    <Resource Key="PP.Cart.Total" Value="totale finale" />
+    <Resource Key="PP.Cart.ProceedToCheckout" Value="Procédé Commander" />
+    <Resource Key="PP.Checkout.Title" Value="Check-out" />
+    <Resource Key="PP.Checkout.Description" Value="Commander avec vos produits panier." />
+    <Resource Key="PP.Checkout.ContactDetails" Value="Détails du contact" />
+    <Resource Key="PP.Checkout.ShippingDetails" Value="Les détails d'expédition" />
+    <Resource Key="PP.Checkout.Payment" Value="Paiement" />
+    <Resource Key="PP.Checkout.YourOrder" Value="Votre commande" />
+    <Resource Key="PP.Checkout.Product" Value="Produit" />
+    <Resource Key="PP.Checkout.Total" Value="Total" />
+    <Resource Key="PP.Checkout.ItemQuantity" Value="Quantité" />
+    <Resource Key="PP.Checkout.SubTotal" Value="sous-total" />
+    <Resource Key="PP.Checkout.Discount" Value="Remise" />
+    <Resource Key="PP.Checkout.PromoApplied" Value="Promo appliquée: {promocode}." />
+    <Resource Key="PP.Checkout.HavePromoApplyHere" Value="Avoir une promo? Appliquer ici." />
+    <Resource Key="PP.Checkout.ShippingCharges" Value="Frais d'expédition" />
+    <Resource Key="PP.Checkout.Total" Value="Total" />
+    <Resource Key="PP.Checkout.ModifyCartItemsHere" Value="Modifier panier articles ici." />
+    <Resource Key="PP.Checkout.NoProductsInCart" Value="Aucun produit dans le chariot. S'il vous plaît ajouter quelques produits dans le panier." />
+    <Resource Key="PP.Checkout.FullName" Value="Nom complet" />
+    <Resource Key="PP.Checkout.Email" Value="Email" />
+    <Resource Key="PP.Checkout.PhoneNumber" Value="Numéro de téléphone" />
+    <Resource Key="PP.Checkout.CreateAccount" Value="Créer un compte?" />
+    <Resource Key="PP.Checkout.AlreadyHaveAccount" Value="Vous avez déjà un compte? S'identifier." />
+    <Resource Key="PP.Checkout.CreateAccount.Validations.FullNameRequired" Value="Nom complet est nécessaire." />
+    <Resource Key="PP.Checkout.CreateAccount.Validations.FullNameMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="PP.Checkout.CreateAccount.Validations.FullNameMaximumLength" Value="Longueur maximale est {max}." />
+    <Resource Key="PP.Checkout.CreateAccount.Validations.ProvideValidEmail" Value="Donnez une adresse de messagerie valide." />
+    <Resource Key="PP.Checkout.CreateAccount.Validations.EmailRequired" Value="Email est requis" />
+    <Resource Key="PP.Checkout.Country" Value="Pays" />
+    <Resource Key="PP.Checkout.City" Value="Ville" />
+    <Resource Key="PP.Checkout.Address" Value="Adresse" />
+    <Resource Key="PP.Checkout.ZipCode" Value="Code postal" />
+    <Resource Key="PP.Checkout.Shipping.Validations.CountryRequired" Value="Pays est nécessaire." />
+    <Resource Key="PP.Checkout.Shipping.Validations.CityRequired" Value="La ville est requise." />
+    <Resource Key="PP.Checkout.Shipping.Validations.AddressRequired" Value="Adresse est nécessaire." />
+    <Resource Key="PP.Checkout.Shipping.Validations.ZipCodeRequired" Value="Code postal est requis." />
+    <Resource Key="PP.Checkout.PayViaCreditCard" Value="Paiement par carte de crédit" />
+    <Resource Key="PP.Checkout.CardHolderName" Value="Nom du titulaire de la carte" />
+    <Resource Key="PP.Checkout.CardNumber" Value="Numéro de carte" />
+    <Resource Key="PP.Checkout.CardExpiryDate" Value="date d'expiration de la carte" />
+    <Resource Key="PP.Checkout.CardExpiryMonth" Value="Carte d'expiration Mois" />
+    <Resource Key="PP.Checkout.CardExpiryYear" Value="Carte d'expiration Année" />
+    <Resource Key="PP.Checkout.CardCVC" Value="CVC" />
+    <Resource Key="PP.Checkout.CardInfoNotSaved" Value="Soyez assurés que nous ne stockons pas les détails de votre carte de crédit sur nos serveurs." />
+    <Resource Key="PP.Checkout.CardPayNow" Value="Payez maintenant" />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CardHolderNameRequired" Value="Nom Porte-cartes est nécessaire." />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CardNumberRequired" Value="Numéro de la carte est nécessaire." />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CardNumberMustBeValid" Value="Numéro de la carte doit être valide." />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CardExpiryMonthRequired" Value="Carte d'expiration mois est nécessaire." />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CardExpiryYearRequired" Value="Carte d'expiration Année est nécessaire." />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CVCRequired" Value="numéro cryptogramme est nécessaire." />
+    <Resource Key="PP.Checkout.CreditCard.Validations.CVCMustBeValid" Value="CVC doit être numérique." />
+    <Resource Key="PP.Checkout.PayViaCashOnDelivery" Value="Payer via paiement à la livraison" />
+    <Resource Key="PP.Checkout.PlaceOrder" Value="Passer la commande" />
+    <Resource Key="PP.Checkout.PayViaPayPal" Value="Payer via PayPal" />
+    <Resource Key="PP.Checkout.PayPalAmountNote" Value="Vous ne paierez {amount} dans {currency} via PayPal." />
+    <Resource Key="PP.Checkout.PayPal.ConfirmOrderAgain" Value="Confirmer la commande" />
+    <Resource Key="PP.Checkout.Validations.PayPalOrderIssue" Value="Pour PayPal Les détails non trouvé." />
+    <Resource Key="PP.Checkout.Validations.PleaseCompleteRequiredFields" Value="S'il vous plaît remplir les champs obligatoires." />
+    <Resource Key="PP.Checkout.OrderPlacedSuccessfully" Value="Votre commande a été placée avec succès." />
+    <Resource Key="PP.Register.Title" Value="Créer un compte" />
+    <Resource Key="PP.Register.Description" Value="Enregistrez votre compte sur {application}." />
+    <Resource Key="PP.Register.FullName" Value="Nom complet" />
+    <Resource Key="PP.Register.FullNamePlaceholder" Value="Nom complet" />
+    <Resource Key="PP.Register.Email" Value="Email" />
+    <Resource Key="PP.Register.EmailPlaceholder" Value="Email" />
+    <Resource Key="PP.Register.Username" Value="Nom d'utilisateur" />
+    <Resource Key="PP.Register.UsernamePlaceholder" Value="Nom d'utilisateur" />
+    <Resource Key="PP.Register.Password" Value="Mot de passe" />
+    <Resource Key="PP.Register.PasswordPlaceholder" Value="Mot de passe" />
+    <Resource Key="PP.Register.ConfirmPassword" Value="Confirmez le mot de passe" />
+    <Resource Key="PP.Register.ConfirmPasswordPlaceholder" Value="Confirmez le mot de passe" />
+    <Resource Key="PP.Register.RegisterAccount" Value="S'inscrire" />
+    <Resource Key="PP.Register.LoginAccount" Value="Ou connectez-vous avec un compte existant" />
+    <Resource Key="PP.Register.Validation.FullNameRequired" Value="Nom complet est nécessaire." />
+    <Resource Key="PP.Register.Validation.UsernameRequired" Value="Nom d'utilisateur est nécessaire." />
+    <Resource Key="PP.Register.Validation.EmailRequired" Value="Email est requis." />
+    <Resource Key="PP.Register.Validation.EmailFormat" Value="S'il vous plaît fournir un email valide." />
+    <Resource Key="PP.Register.Validation.PasswordRequired" Value="Mot de passe requis." />
+    <Resource Key="PP.Register.Validation.ConfirmPasswordRequired" Value="Confirmer mot de passe est nécessaire." />
+    <Resource Key="PP.Register.Validation.PasswordNotMatched" Value="Mot de passe et Confirmer le mot de passe ne correspondent pas." />
+    <Resource Key="PP.Login.Title" Value="Connexion au compte" />
+    <Resource Key="PP.Login.Description" Value="Connectez-vous à votre compte sur {application}." />
+    <Resource Key="PP.Login.Username" Value="Nom d'utilisateur" />
+    <Resource Key="PP.Login.UsernamePlaceholder" Value="Nom d'utilisateur" />
+    <Resource Key="PP.Login.Password" Value="Mot de passe" />
+    <Resource Key="PP.Login.PasswordPlaceholder" Value="Mot de passe" />
+    <Resource Key="PP.Login.RememberMe" Value="Souviens-toi de moi" />
+    <Resource Key="PP.Login.ForgotPassword" Value="Mot de passe oublié?" />
+    <Resource Key="PP.Login.LoginAccount" Value="S'identifier" />
+    <Resource Key="PP.Login.RegisterAccount" Value="Ou Enregistrer un nouveau compte" />
+    <Resource Key="PP.Login.Validation.UsernameRequired" Value="S'il vous plaît entrer votre nom d'utilisateur accout." />
+    <Resource Key="PP.Login.Validation.PasswordRequired" Value="S'il vous plaît entrer votre mot de passe accout." />
+    <Resource Key="PP.Login.Validation.InvalidLoginAttempt" Value="tentative de connexion non valide." />
+    <Resource Key="PP.Login.Validation.LockedOut" Value="Vous en lock-out." />
+    <Resource Key="PP.ForgotPassword.Title" Value="Mot de passe oublié" />
+    <Resource Key="PP.ForgotPassword.Description" Value="Récupérer votre compte {} d'application." />
+    <Resource Key="PP.ForgotPassword.Username" Value="Nom d'utilisateur" />
+    <Resource Key="PP.ForgotPassword.UsernamePlaceholder" Value="Nom d'utilisateur" />
+    <Resource Key="PP.ForgotPassword.Validation.UsernameRequired" Value="Nom d'utilisateur est nécessaire." />
+    <Resource Key="PP.ForgotPassword.RecoverAccount" Value="récupérer compte" />
+    <Resource Key="PP.ForgotPassword.PasswordResetEmailSuccess" Value="Merci de consulter vos emails. Un lien de réinitialisation de mot de passe a été envoyé à votre e-mail des comptes." />
+    <Resource Key="PP.ResetPassword.Title" Value="réinitialiser le mot de passe" />
+    <Resource Key="PP.ResetPassword.Description" Value="Réinitialiser le mot de passe pour votre compte sur {application}." />
+    <Resource Key="PP.ResetPassword.Password" Value="Mot de passe" />
+    <Resource Key="PP.ResetPassword.PasswordPlaceholder" Value="Mot de passe" />
+    <Resource Key="PP.ResetPassword.ConfirmPassword" Value="Confirmez le mot de passe" />
+    <Resource Key="PP.ResetPassword.ConfirmPasswordPlaceholder" Value="Confirmez le mot de passe" />
+    <Resource Key="PP.ResetPassword.ResetPassword" Value="réinitialiser le mot de passe" />
+    <Resource Key="PP.ResetPassword.LoginAccount" Value="Connectez-vous pour compte" />
+    <Resource Key="PP.ResetPassword.Validation.PasswordRequired" Value="Mot de passe requis." />
+    <Resource Key="PP.ResetPassword.Validation.ConfirmPasswordRequired" Value="Confirmer mot de passe est nécessaire." />
+    <Resource Key="PP.ResetPassword.Validation.PasswordNotMatched" Value="Mot de passe et Confirmer le mot de passe ne correspondent pas." />
+    <Resource Key="PP.UserProfile.Title" Value="Profil de l'utilisateur" />
+    <Resource Key="PP.UserProfile.Description" Value="Donnez votre avis sur votre profil et les données connexes sur {application}." />
+    <Resource Key="PP.UserProfile.Username" Value="Nom d'utilisateur" />
+    <Resource Key="PP.UserProfile.Info" Value="Info" />
+    <Resource Key="PP.UserProfile.ChangePassword" Value="Changer le mot de passe" />
+    <Resource Key="PP.UserProfile.ChangeAvatar" Value="Changer d'avatar" />
+    <Resource Key="PP.UserProfile.Orders" Value="Ordres" />
+    <Resource Key="PP.UserProfile.Comments" Value="commentaires" />
+    <Resource Key="PP.UserProfile.Info.FullName" Value="Nom complet" />
+    <Resource Key="PP.UserProfile.Info.Email" Value="Email" />
+    <Resource Key="PP.UserProfile.Info.Username" Value="Nom d'utilisateur" />
+    <Resource Key="PP.UserProfile.Info.PhoneNumber" Value="Numéro de téléphone" />
+    <Resource Key="PP.UserProfile.Info.Country" Value="Pays" />
+    <Resource Key="PP.UserProfile.Info.City" Value="Ville" />
+    <Resource Key="PP.UserProfile.Info.Address" Value="Adresse" />
+    <Resource Key="PP.UserProfile.Info.ZipCode" Value="Code postal" />
+    <Resource Key="PP.UserProfile.Info.UpdateInfo" Value="Information sur la mise à jour" />
+    <Resource Key="PP.UserProfile.Info.UserInfoUpdated" Value="Informations utilisateur mise à jour." />
+    <Resource Key="PP.UserProfile.Info.Validations.FullNameRequired" Value="Nom complet est nécessaire." />
+    <Resource Key="PP.UserProfile.Info.Validations.FullNameMin" Value="Longueur minimum est {min}." />
+    <Resource Key="PP.UserProfile.Info.Validations.FullNameMax" Value="Longueur maximale est {max}." />
+    <Resource Key="PP.UserProfile.Info.Validations.EmailFormat" Value="S'il vous plaît fournir un email valide." />
+    <Resource Key="PP.UserProfile.Info.Validations.EmailRequired" Value="Adresse e-mail est nécessaire." />
+    <Resource Key="PP.UserProfile.Info.Validations.UsernameRequired" Value="Nom d'utilisateur est nécessaire." />
+    <Resource Key="PP.UserProfile.Info.Validations.CountryRequired" Value="Pays est nécessaire." />
+    <Resource Key="PP.UserProfile.Info.Validations.CityRequired" Value="La ville est requise." />
+    <Resource Key="PP.UserProfile.Info.Validations.AddressRequired" Value="Adresse est nécessaire." />
+    <Resource Key="PP.UserProfile.Info.Validations.ZipCodeRequired" Value="Code postal est requis." />
+    <Resource Key="PP.UserProfile.ChangePassword.CurrentPassword" Value="Mot de passe actuel" />
+    <Resource Key="PP.UserProfile.ChangePassword.NewPassword" Value="nouveau mot de passe" />
+    <Resource Key="PP.UserProfile.ChangePassword.ConfirmPassword" Value="Confirmez le mot de passe" />
+    <Resource Key="PP.UserProfile.ChangePassword.UpdatePassword" Value="Mettre à jour le mot de passe" />
+    <Resource Key="PP.UserProfile.ChangePassword.Validations.OldPasswordRequired" Value="Ancien mot de passe est nécessaire." />
+    <Resource Key="PP.UserProfile.ChangePassword.Validations.NewPasswordRequired" Value="Nouveau mot de passe est nécessaire." />
+    <Resource Key="PP.UserProfile.ChangePassword.Validations.ConfirmPasswordRequired" Value="Confirmer mot de passe est nécessaire." />
+    <Resource Key="PP.UserProfile.ChangePassword.Validations.PasswordsNotMatched" Value="Nouveau mot de passe et Confirmer mot de passe ne correspondent pas." />
+    <Resource Key="PP.UserProfile.ChangePassword.PasswordsUpdated" Value="Mot de passe mis à jour avec succès." />
+    <Resource Key="PP.UserProfile.ChangeAvatar.Avatar" Value="Avatar" />
+    <Resource Key="PP.UserProfile.ChangeAvatar.SelectAvatar" Value="Sélectionnez Avatar" />
+    <Resource Key="PP.UserProfile.ChangeAvatar.UpdateAvatar" Value="Mise à jour Avatar" />
+    <Resource Key="PP.UserProfile.ChangeAvatar.AvatarUpdated" Value="Avatar mis à jour avec succès." />
+    <Resource Key="PP.UserProfile.ChangeAvatar.Validations.SelectAvatar" Value="S'il vous plaît sélectionner une image." />
+    <Resource Key="PP.UserProfile.UserOrders.OrderIDPlaceholder" Value="Recherche par ordre ID" />
+    <Resource Key="PP.UserProfile.UserOrders.SelectByOrderStatus" Value="Sélectionnez par Bestellen ..." />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.Placed" Value="Mis" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.Processing" Value="En traitement" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.Delivered" Value="Livré" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.Failed" Value="Échoué" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.Cancelled" Value="Annulé" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.OnHold" Value="En attente" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.WaitingForPayment" Value="En attente de paiement" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderStatus.Refunded" Value="remboursé" />
+    <Resource Key="PP.UserProfile.UserOrders.SearchOrders" Value="Chercher" />
+    <Resource Key="PP.UserProfile.UserOrders.Reset" Value="Réinitialiser" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderID" Value="numéro de commande" />
+    <Resource Key="PP.UserProfile.UserOrders.PlacedOnDate" Value="Placé On Date" />
+    <Resource Key="PP.UserProfile.UserOrders.OrderAmount" Value="Montant de la commande" />
+    <Resource Key="PP.UserProfile.UserOrders.Status" Value="Statut" />
+    <Resource Key="PP.UserProfile.UserOrders.Actions" Value="Actions" />
+    <Resource Key="PP.UserProfile.UserOrders.UpdatedOn" Value="Mis à jour le" />
+    <Resource Key="PP.UserProfile.UserOrders.Track" Value="Piste" />
+    <Resource Key="PP.UserProfile.UserOrders.Previous" Value="précédent" />
+    <Resource Key="PP.UserProfile.UserOrders.Next" Value="Prochain" />
+    <Resource Key="PP.UserProfile.UserOrders.NoOrdersFound" Value="Pas de commande trouvé." />
+    <Resource Key="PP.UserProfile.UserComments.SearchCommentsPlaceholder" Value="Chercher dans les commentaires" />
+    <Resource Key="PP.UserProfile.UserComments.SearchComments" Value="Chercher" />
+    <Resource Key="PP.UserProfile.UserComments.Reset" Value="Réinitialiser" />
+    <Resource Key="PP.UserProfile.UserComments.CommentUserName" Value="{user}" />
+    <Resource Key="PP.UserProfile.UserComments.CommentTimestamp" Value="{datetime}" />
+    <Resource Key="PP.UserProfile.UserComments.DeleteComment" Value="Supprimer le commentaire" />
+    <Resource Key="PP.UserProfile.UserComments.CommentDeleteWarning" Value="êtes-vous sûr de vouloir supprimer ce commentaire?" />
+    <Resource Key="PP.UserProfile.UserComments.CommentDeleteConfirm" Value="Oui, supprimez-le!" />
+    <Resource Key="PP.UserProfile.UserComments.CommentDeleteCancel" Value="Non, Ne pas supprimer." />
+    <Resource Key="PP.UserProfile.UserComments.Previous" Value="précédent" />
+    <Resource Key="PP.UserProfile.UserComments.Next" Value="Prochain" />
+    <Resource Key="PP.UserProfile.UserComments.NoCommentsFound" Value="Aucun commentaire n'a été trouvé." />
+    <Resource Key="PP.PrintInvoice.Title" Value="Imprimer la facture Ordre: {orderid}" />
+    <Resource Key="PP.PrintInvoice.Description" Value="Imprimer facture pour votre commande." />
+    <Resource Key="PP.PrintInvoice.OrderID" Value="numéro de commande" />
+    <Resource Key="PP.PrintInvoice.Dated" Value="Daté" />
+    <Resource Key="PP.PrintInvoice.Status" Value="Statut" />
+    <Resource Key="PP.PrintInvoice.CustomerInformation" Value="Informations client" />
+    <Resource Key="PP.PrintInvoice.PaymentDetails" Value="Détails de paiement" />
+    <Resource Key="PP.PrintInvoice.PaymentMethod" Value="Mode de paiement" />
+    <Resource Key="PP.PrintInvoice.TransactionID" Value="identifiant de transaction" />
+    <Resource Key="PP.PrintInvoice.OrderID" Value="numéro de commande" />
+    <Resource Key="PP.PrintInvoice.Code" Value="Code" />
+    <Resource Key="PP.PrintInvoice.Product" Value="Produit" />
+    <Resource Key="PP.PrintInvoice.Price" Value="Prix" />
+    <Resource Key="PP.PrintInvoice.Quantity" Value="Quantité" />
+    <Resource Key="PP.PrintInvoice.Total" Value="Total" />
+    <Resource Key="PP.PrintInvoice.PromoApplied" Value="Promo appliquée: {promo}" />
+    <Resource Key="PP.PrintInvoice.TotalAmount" Value="Montant total" />
+    <Resource Key="PP.PrintInvoice.Discount" Value="Remise" />
+    <Resource Key="PP.PrintInvoice.ShippingCharges" Value="livraison" />
+    <Resource Key="PP.PrintInvoice.FinalAmount" Value="Le montant final" />
+    <Resource Key="PP.PrintInvoice.GuestOrder" Value="Invité ordre" />
+    <Resource Key="PP.PrintInvoice.NotAccessible" Value="Désolé! vous ne pouvez pas vérifier ce détail de la commande." />
+    <Resource Key="Dashboard.Dashboard" Value="Tableau de bord" />
+    <Resource Key="Dashboard.Commons.RecordNotSpecifiedInCurrentLanguage" Value="Cet enregistrement n'est pas spécifié dans le langage courant." />
+    <Resource Key="Dashboard.Commons.ParentCategoryRecordNotSpecifiedInCurrentLanguage" Value="Parent Catégorie non spécifié dans le langage courant." />
+    <Resource Key="Dashboard.Commons.CategoryRecordNotSpecifiedInCurrentLanguage" Value="Ce nom de la catégorie n'est pas spécifié dans le langage courant." />
+    <Resource Key="Dashboard.Message.Success" Value="Succès!" />
+    <Resource Key="Dashboard.Message.Warning" Value="Attention!" />
+    <Resource Key="Dashboard.Message.Error" Value="Erreur!" />
+    <Resource Key="Dashboard.Message.Thanks" Value="Merci" />
+    <Resource Key="Dashboard.Message.GenericErrorMessage" Value="Une erreur est survenue." />
+    <Resource Key="Dashboard.Message.ConfirmDeleteWarning" Value="Etes-vous sûr de vouloir supprimer cet enregistrement?" />
+    <Resource Key="Dashboard.Message.ConfirmDelete" Value="Confirmer" />
+    <Resource Key="Dashboard.Message.CancelDelete" Value="Annuler" />
+    <Resource Key="Dashboard.Message.OK" Value="D'accord" />
+    <Resource Key="Dashboard.Pagination.Previous" Value="précédent" />
+    <Resource Key="Dashboard.Pagination.Next" Value="Prochain" />
+    <Resource Key="Dashboard.Menu.Home" Value="Accueil" />
+    <Resource Key="Dashboard.Menu.Dashboard" Value="Tableau de bord" />
+    <Resource Key="Dashboard.Menu.Categories" Value="Catégories" />
+    <Resource Key="Dashboard.Menu.Products" Value="Des produits" />
+    <Resource Key="Dashboard.Menu.Promos" Value="Promotions" />
+    <Resource Key="Dashboard.Menu.Orders" Value="Ordres" />
+    <Resource Key="Dashboard.Menu.Comments" Value="commentaires" />
+    <Resource Key="Dashboard.Menu.Users" Value="Utilisateurs" />
+    <Resource Key="Dashboard.Menu.Roles" Value="Les rôles" />
+    <Resource Key="Dashboard.Menu.Languages" Value="langues" />
+    <Resource Key="Dashboard.Menu.Configurations" Value="configurations" />
+    <Resource Key="Dashboard.Menu.AllConfigurations" Value="Toutes les configurations" />
+    <Resource Key="Dashboard.Menu.LanguageConfigurations" Value="langue Configurations" />
+    <Resource Key="Dashboard.Menu.NewsletterSubscribers" Value="Les abonnés Newsletter" />
+    <Resource Key="Dashboard.TopMenu.Profile" Value="Profil" />
+    <Resource Key="Dashboard.TopMenu.LogOff" Value="Se déconnecter" />
+    <Resource Key="Dashboard.Dashboard.Hello" Value="Bonjour {user}!" />
+    <Resource Key="Dashboard.Dashboard.WelcomeToDashboard" Value="Bienvenue sur {application} Tableau de bord. Voici quelques données démographiques." />
+    <Resource Key="Dashboard.Dashboard.LowStockAlert" Value="La quantité restante de {product-link} est {product-quantity} quantité qui est inférieure au niveau d'alerte stocks de {stock-alert-level}." />
+    <Resource Key="Dashboard.Dashboard.TotalProducts" Value="Produits total" />
+    <Resource Key="Dashboard.Dashboard.TotalCategories" Value="total des catégories" />
+    <Resource Key="Dashboard.Dashboard.TotalOrders" Value="Le total des commandes" />
+    <Resource Key="Dashboard.Dashboard.TotalComments" Value="Nombre de commentaires" />
+    <Resource Key="Dashboard.Dashboard.NoOfUsers" Value="Non des utilisateurs" />
+    <Resource Key="Dashboard.Dashboard.NoOfRoles" Value="Nombre de rôles" />
+    <Resource Key="Dashboard.Categories.Title" Value="Catégories" />
+    <Resource Key="Dashboard.Categories.Description" Value="Liste des catégories" />
+    <Resource Key="Dashboard.Categories.SearchPlaceholder" Value="Recherche par nom Catégorie" />
+    <Resource Key="Dashboard.Categories.SelectParentCategory" Value="Sélectionnez Catégories par Parent Catégorie" />
+    <Resource Key="Dashboard.Categories.Search" Value="Chercher" />
+    <Resource Key="Dashboard.Categories.Reset" Value="Réinitialiser" />
+    <Resource Key="Dashboard.Categories.CreateCategory" Value="Créer une catégorie" />
+    <Resource Key="Dashboard.Categories.List.Name" Value="Nom" />
+    <Resource Key="Dashboard.Categories.List.ParentCategory" Value="Catégorie Parentale" />
+    <Resource Key="Dashboard.Categories.List.Description" Value="La description" />
+    <Resource Key="Dashboard.Categories.List.Products" Value="Des produits" />
+    <Resource Key="Dashboard.Categories.List.Actions" Value="Actions" />
+    <Resource Key="Dashboard.Categories.List.FeaturedCategory" Value="Catégorie en vedette" />
+    <Resource Key="Dashboard.Categories.List.Edit" Value="Éditer" />
+    <Resource Key="Dashboard.Categories.List.Delete" Value="Effacer" />
+    <Resource Key="Dashboard.Categories.List.NoRecordFound" Value="Aucune catégorie trouvée." />
+    <Resource Key="Dashboard.Categories.EditCategoryTitle" Value="Modifier la catégorie" />
+    <Resource Key="Dashboard.Categories.EditCategoryDescription" Value="Modifier cette catégorie." />
+    <Resource Key="Dashboard.Categories.CreateCategoryTitle" Value="Créer une catégorie" />
+    <Resource Key="Dashboard.Categories.CreateCategoryDescription" Value="Créer nouvelle catégorie." />
+    <Resource Key="Dashboard.Categories.Action.Name" Value="Nom" />
+    <Resource Key="Dashboard.Categories.Action.NamePlaceholder" Value="Nom de catégorie" />
+    <Resource Key="Dashboard.Categories.Action.Summary" Value="Sommaire" />
+    <Resource Key="Dashboard.Categories.Action.SummaryPlaceholder" Value="Ajouter résumé de la catégorie." />
+    <Resource Key="Dashboard.Categories.Action.Description" Value="La description" />
+    <Resource Key="Dashboard.Categories.Action.DescriptionPlaceholder" Value="Ajouter description de la catégorie." />
+    <Resource Key="Dashboard.Categories.Action.ParentCategory" Value="Catégorie Parentale" />
+    <Resource Key="Dashboard.Categories.Action.ParentCategoryNone" Value="Aucun" />
+    <Resource Key="Dashboard.Categories.Action.URL" Value="URL" />
+    <Resource Key="Dashboard.Categories.Action.SelectPicture" Value="Sélectionner une image" />
+    <Resource Key="Dashboard.Categories.Action.Featured" Value="Catégorie en vedette" />
+    <Resource Key="Dashboard.Categories.Update" Value="Mettre à jour" />
+    <Resource Key="Dashboard.Categories.Delete" Value="Effacer" />
+    <Resource Key="Dashboard.Categories.Save" Value="sauver" />
+    <Resource Key="Dashboard.Categories.Cancel" Value="Annuler" />
+    <Resource Key="Dashboard.Categories.Action.Validation.NameRequired" Value="Nom de la catégorie est nécessaire." />
+    <Resource Key="Dashboard.Categories.Action.Validation.NameMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="Dashboard.Categories.Action.Validation.NameMaximumLength" Value="Longueur maximale est {length}." />
+    <Resource Key="Dashboard.Categories.Action.Validation.DescriptionMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="Dashboard.Categories.Action.Validation.CategoryNotFound" Value="Catégorie introuvable." />
+    <Resource Key="Dashboard.Categories.Action.Validation.UnableToUpdateCategory" Value="Impossible de mettre à jour Catégorie." />
+    <Resource Key="Dashboard.Categories.Action.Validation.UnableToUpdateCategoryRecord" Value="Impossible de mettre à jour Catégorie d'enregistrement." />
+    <Resource Key="Dashboard.Categories.Action.Validation.UnableToCreateCategory" Value="Impossible de créer Catégorie." />
+    <Resource Key="Dashboard.Categories.Action.Validation.UnableToDeleteCategory" Value="Impossible de supprimer la catégorie." />
+    <Resource Key="Dashboard.Products.Title" Value="Des produits" />
+    <Resource Key="Dashboard.Products.Description" Value="Liste des produits" />
+    <Resource Key="Dashboard.Products.SearchPlaceholder" Value="Recherche de produits par nom" />
+    <Resource Key="Dashboard.Products.SelectByCategory" Value="Par catégorie" />
+    <Resource Key="Dashboard.Products.Search" Value="Chercher" />
+    <Resource Key="Dashboard.Products.Reset" Value="Réinitialiser" />
+    <Resource Key="Dashboard.Products.CreateProduct" Value="Créer" />
+    <Resource Key="Dashboard.Products.ShowOnlyLowStock" Value="Afficher uniquement les faibles stocks" />
+    <Resource Key="Dashboard.Products.List.Name" Value="Nom" />
+    <Resource Key="Dashboard.Products.List.Category" Value="Catégorie" />
+    <Resource Key="Dashboard.Products.List.Summary" Value="Sommaire" />
+    <Resource Key="Dashboard.Products.List.Price" Value="Prix" />
+    <Resource Key="Dashboard.Products.List.StockQuantity" Value="Quantité en stock" />
+    <Resource Key="Dashboard.Products.List.Actions" Value="Actions" />
+    <Resource Key="Dashboard.Products.List.FeaturedProduct" Value="Produit en vedette" />
+    <Resource Key="Dashboard.Products.Edit" Value="Éditer" />
+    <Resource Key="Dashboard.Products.Delete" Value="Effacer" />
+    <Resource Key="Dashboard.Products.List.NoRecordFound" Value="Aucun produit trouvé." />
+    <Resource Key="Dashboard.Products.EditProductTitle" Value="Modifier le produit" />
+    <Resource Key="Dashboard.Products.EditProductDescription" Value="Modifier produit." />
+    <Resource Key="Dashboard.Products.CreateProductTitle" Value="Créer produit" />
+    <Resource Key="Dashboard.Products.CreateProductDescription" Value="Créer un nouveau produit." />
+    <Resource Key="Dashboard.Products.Action.Name" Value="Nom" />
+    <Resource Key="Dashboard.Products.Action.NamePlaceholder" Value="Nom du produit" />
+    <Resource Key="Dashboard.Products.Action.Summary" Value="Sommaire" />
+    <Resource Key="Dashboard.Products.Action.SummaryPlaceholder" Value="Ajouter Résumé produit" />
+    <Resource Key="Dashboard.Products.Action.Description" Value="La description" />
+    <Resource Key="Dashboard.Products.Action.DescriptionPlaceholder" Value="Ajouter Description du produit" />
+    <Resource Key="Dashboard.Products.Action.ProductSpecifications" Value="Spécifications du produit" />
+    <Resource Key="Dashboard.Products.Action.SpecificationTitle" Value="spécification Titre" />
+    <Resource Key="Dashboard.Products.Action.SpecificationValue" Value="spécification Valeur" />
+    <Resource Key="Dashboard.Products.Action.AddSpecification" Value="Ajouter Spécification" />
+    <Resource Key="Dashboard.Products.Action.SpecificationAction" Value="Actions" />
+    <Resource Key="Dashboard.Products.Action.SpecificationDelete" Value="Effacer" />
+    <Resource Key="Dashboard.Products.Action.NoSpecifications" Value="Aucune spécification." />
+    <Resource Key="Dashboard.Products.Action.Category" Value="Catégorie" />
+    <Resource Key="Dashboard.Products.Action.Price" Value="Prix" />
+    <Resource Key="Dashboard.Products.Action.PricePlaceholder" Value="Prix ??du produit" />
+    <Resource Key="Dashboard.Products.Action.SelectPictures" Value="Sélectionnez les photos" />
+    <Resource Key="Dashboard.Products.Action.SetThumbnailImage" Value="Définir comme Vignette" />
+    <Resource Key="Dashboard.Products.Action.RemovePicture" Value="Supprimer l'image" />
+    <Resource Key="Dashboard.Products.Action.FeaturedProduct" Value="Produit en vedette" />
+    <Resource Key="Dashboard.Products.Update" Value="Mettre à jour" />
+    <Resource Key="Dashboard.Products.Delete" Value="Effacer" />
+    <Resource Key="Dashboard.Products.Save" Value="sauver" />
+    <Resource Key="Dashboard.Products.Cancel" Value="Annuler" />
+    <Resource Key="Dashboard.Products.Action.Validation.NameRequired" Value="Nom du produit est nécessaire." />
+    <Resource Key="Dashboard.Products.Action.Validation.NameMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="Dashboard.Products.Action.Validation.NameMaximumLength" Value="Longueur maximale est {max}." />
+    <Resource Key="Dashboard.Products.Action.Validation.CategoryRequired" Value="Sélectionnez une catégorie de produits." />
+    <Resource Key="Dashboard.Products.Action.Validation.SummaryRequired" Value="Sommaire du produit est nécessaire." />
+    <Resource Key="Dashboard.Products.Action.Validation.SummaryMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="Dashboard.Products.Action.Validation.SummaryMaximumLength" Value="Longueur maximale est {max}." />
+    <Resource Key="Dashboard.Products.Action.Validation.DescriptionRequired" Value="Description est nécessaire." />
+    <Resource Key="Dashboard.Products.Action.Validation.DescriptionMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="Dashboard.Products.Action.Validation.PriceRequired" Value="Le prix est nécessaire." />
+    <Resource Key="Dashboard.Products.Action.Validation.PriceRange" Value="Le prix doit être entre {min} et {max}." />
+    <Resource Key="Dashboard.Products.Action.Validation.ProductPicturesRequired" Value="S'il vous plaît télécharger atleast une image du produit." />
+    <Resource Key="Dashboard.Products.Action.Validation.ProductNotFound" Value="Produit non trouvé." />
+    <Resource Key="Dashboard.Products.Action.Validation.UnableToUpdateProduct" Value="Impossible de mettre à jour produit." />
+    <Resource Key="Dashboard.Products.Action.Validation.UnableToUpdateProductRecord" Value="Impossible de mettre à jour Enregistrement Produit." />
+    <Resource Key="Dashboard.Products.Action.Validation.UnableToCreateProduct" Value="Impossible de créer des produits." />
+    <Resource Key="Dashboard.Products.Action.Validation.UnableToCreateProductRecord" Value="Impossible de créer Enregistrement Produit." />
+    <Resource Key="Dashboard.Products.Action.Validation.UnableToDeleteProduct" Value="Impossible de supprimer le produit." />
+    <Resource Key="Dashboard.Promos.Title" Value="Promotions" />
+    <Resource Key="Dashboard.Promos.Description" Value="Liste des pages promos." />
+    <Resource Key="Dashboard.Promos.SearchPlaceholder" Value="Recherche Promo" />
+    <Resource Key="Dashboard.Promos.Search" Value="Chercher" />
+    <Resource Key="Dashboard.Promos.Reset" Value="Réinitialiser" />
+    <Resource Key="Dashboard.Promos.CreatePromo" Value="Créer Promo" />
+    <Resource Key="Dashboard.Promos.List.Name" Value="Nom" />
+    <Resource Key="Dashboard.Promos.List.Code" Value="Code promo" />
+    <Resource Key="Dashboard.Promos.List.PromoType" Value="promo type" />
+    <Resource Key="Dashboard.Promos.List.Value" Value="Valeur" />
+    <Resource Key="Dashboard.Promos.List.ValidTill" Value="Valable jusqu'au" />
+    <Resource Key="Dashboard.Promos.List.Actions" Value="Actions" />
+    <Resource Key="Dashboard.Promos.List.NoRecordFound" Value="Pas trouvé promos." />
+    <Resource Key="Dashboard.Promos.PromoTypes" Value="Types de Promo" />
+    <Resource Key="Dashboard.Promos.PromoTypes.Percentage" Value="Pourcentage" />
+    <Resource Key="Dashboard.Promos.PromoTypes.Amount" Value="Montant" />
+    <Resource Key="Dashboard.Promos.Edit" Value="Éditer" />
+    <Resource Key="Dashboard.Promos.Delete" Value="Effacer" />
+    <Resource Key="Dashboard.Promos.EditPromoTitle" Value="Modifier Promo" />
+    <Resource Key="Dashboard.Promos.EditPromoDescription" Value="Modifier Promo." />
+    <Resource Key="Dashboard.Promos.CreatePromoTitle" Value="Créer Promo" />
+    <Resource Key="Dashboard.Promos.CreatePromoDescription" Value="Créer un nouveau promo." />
+    <Resource Key="Dashboard.Promos.Action.Name" Value="Nom" />
+    <Resource Key="Dashboard.Promos.Action.NamePlaceholder" Value="Ajouter Promo Nom" />
+    <Resource Key="Dashboard.Promos.Action.Description" Value="La description" />
+    <Resource Key="Dashboard.Promos.Action.DescriptionPlaceholder" Value="Ajouter description promo." />
+    <Resource Key="Dashboard.Promos.Action.Code" Value="Code" />
+    <Resource Key="Dashboard.Promos.Action.CodePlaceholder" Value="Ajouter Promo Code" />
+    <Resource Key="Dashboard.Promos.Action.PromoType" Value="promo type" />
+    <Resource Key="Dashboard.Promos.Action.AmountPromoDescription" Value="Montant Promo type donnera une réduction de la valeur spécifiée comme montant du montant total de la commande." />
+    <Resource Key="Dashboard.Promos.Action.PercentagePromoDescription" Value="Pourcentage Promo type donnera une réduction de la valeur spécifiée en pourcentage du montant total de la commande." />
+    <Resource Key="Dashboard.Promos.Action.Value" Value="Valeur" />
+    <Resource Key="Dashboard.Promos.Action.ValidTill" Value="Valable jusqu'au" />
+    <Resource Key="Dashboard.Promos.Update" Value="Mettre à jour" />
+    <Resource Key="Dashboard.Promos.Delete" Value="Effacer" />
+    <Resource Key="Dashboard.Promos.Save" Value="sauver" />
+    <Resource Key="Dashboard.Promos.Cancel" Value="Annuler" />
+    <Resource Key="Dashboard.Promos.Action.Validation.NameRequired" Value="Le nom est requis." />
+    <Resource Key="Dashboard.Promos.Action.Validation.NameMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="Dashboard.Promos.Action.Validation.NameMaximumLength" Value="Longueur maximale est {max}." />
+    <Resource Key="Dashboard.Promos.Action.Validation.PromoTypeRequired" Value="S'il vous plaît sélectionnez le type de Promo." />
+    <Resource Key="Dashboard.Promos.Action.Validation.DescriptionMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="Dashboard.Promos.Action.Validation.CodeRequired" Value="Code promo est nécessaire." />
+    <Resource Key="Dashboard.Promos.Action.Validation.CodeMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="Dashboard.Promos.Action.Validation.CodeMaximumLength" Value="Longueur maximale est {max}." />
+    <Resource Key="Dashboard.Promos.Action.Validation.ValueRequired" Value="Promo valeur est requise." />
+    <Resource Key="Dashboard.Promos.Action.Validation.ValueRange" Value="La valeur doit être entre {min} et {max}." />
+    <Resource Key="Dashboard.Promos.Action.Validation.PromoNotFound" Value="Promo introuvable." />
+    <Resource Key="Dashboard.Promos.Action.Validation.UnableToUpdatePromo" Value="Impossible de mettre à jour Promo." />
+    <Resource Key="Dashboard.Promos.Action.Validation.UnableToCreatePromo" Value="Impossible de créer Promo." />
+    <Resource Key="Dashboard.Promos.Action.Validation.UnableToDeletePromo" Value="Impossible de supprimer Promo." />
+    <Resource Key="Dashboard.Orders.Title" Value="Ordres" />
+    <Resource Key="Dashboard.Orders.Description" Value="commandes Liste" />
+    <Resource Key="Dashboard.Orders.SearchByUserIDPlaceholder" Value="Recherche par ID d'utilisateur" />
+    <Resource Key="Dashboard.Orders.SearchByOrderIDPlaceholder" Value="Recherche par ordre ID" />
+    <Resource Key="Dashboard.Orders.SearchByOrderStatus" Value="Recherche par Bestellen" />
+    <Resource Key="Dashboard.Orders.OrderStatus" Value="Statut de la commande" />
+    <Resource Key="Dashboard.Orders.OrderStatus.Placed" Value="Mis" />
+    <Resource Key="Dashboard.Orders.OrderStatus.Processing" Value="En traitement" />
+    <Resource Key="Dashboard.Orders.OrderStatus.Delivered" Value="Livré" />
+    <Resource Key="Dashboard.Orders.OrderStatus.Failed" Value="Échoué" />
+    <Resource Key="Dashboard.Orders.OrderStatus.Cancelled" Value="Annulé" />
+    <Resource Key="Dashboard.Orders.OrderStatus.OnHold" Value="En attente" />
+    <Resource Key="Dashboard.Orders.OrderStatus.WaitingForPayment" Value="En attente de paiement" />
+    <Resource Key="Dashboard.Orders.OrderStatus.Refunded" Value="remboursé" />
+    <Resource Key="Dashboard.Orders.Search" Value="Chercher" />
+    <Resource Key="Dashboard.Orders.Reset" Value="Réinitialiser" />
+    <Resource Key="Dashboard.Orders.List.OrderID" Value="numéro de commande" />
+    <Resource Key="Dashboard.Orders.List.PlacedOn" Value="Placé On Date" />
+    <Resource Key="Dashboard.Orders.List.OrderAmount" Value="Montant de la commande" />
+    <Resource Key="Dashboard.Orders.List.PaymentMethod" Value="Mode de paiement" />
+    <Resource Key="Dashboard.Orders.List.Status" Value="Statut" />
+    <Resource Key="Dashboard.Orders.List.Actions" Value="Actions" />
+    <Resource Key="Dashboard.Orders.List.UpdatedOn" Value="Mis à jour le" />
+    <Resource Key="Dashboard.Orders.List.Details" Value="Détails" />
+    <Resource Key="Dashboard.Orders.List.Track" Value="Piste" />
+    <Resource Key="Dashboard.Orders.List.Invoice" Value="Facture d'achat" />
+    <Resource Key="Dashboard.Orders.NoOrdersFound" Value="Pas de commande trouvé." />
+    <Resource Key="Dashboard.OrderDetails.Title" Value="Ordres" />
+    <Resource Key="Dashboard.OrderDetails.Description" Value="commandes Liste" />
+    <Resource Key="Dashboard.OrderDetails.PrintInvoice" Value="La facture d'impression" />
+    <Resource Key="Dashboard.OrderDetails.OrderStatus" Value="Statut de la commande" />
+    <Resource Key="Dashboard.OrderDetails.PaymentMethod" Value="Mode de paiement" />
+    <Resource Key="Dashboard.OrderDetails.PaymentMethods.CreditCard" Value="Carte de crédit" />
+    <Resource Key="Dashboard.OrderDetails.PaymentMethods.PayPal" Value="Pay Pal" />
+    <Resource Key="Dashboard.OrderDetails.PaymentMethods.CashOnDelivery" Value="Paiement à la livraison" />
+    <Resource Key="Dashboard.OrderDetails.OrderTransactionID" Value="identifiant de transaction" />
+    <Resource Key="Dashboard.OrderDetails.OrderProcessor.AuthorizeNet" Value="Authorize.Net" />
+    <Resource Key="Dashboard.OrderDetails.OrderProcessor.PayPal" Value="Pay Pal" />
+    <Resource Key="Dashboard.OrderDetails.PlacedOn" Value="Placé On Date" />
+    <Resource Key="Dashboard.OrderDetails.UpdatedOn" Value="Mis à jour le" />
+    <Resource Key="Dashboard.OrderDetails.OrderID" Value="numéro de commande" />
+    <Resource Key="Dashboard.OrderDetails.OrderUniqueCode" Value="Code commande unique" />
+    <Resource Key="Dashboard.OrderDetails.OrderDetails" Value="détails de la commande" />
+    <Resource Key="Dashboard.OrderDetails.Name" Value="Nom" />
+    <Resource Key="Dashboard.OrderDetails.Price" Value="Prix" />
+    <Resource Key="Dashboard.OrderDetails.Quantity" Value="Quantité" />
+    <Resource Key="Dashboard.OrderDetails.Total" Value="Total" />
+    <Resource Key="Dashboard.OrderDetails.TotalAmount" Value="Montant total" />
+    <Resource Key="Dashboard.OrderDetails.Discount" Value="Remise" />
+    <Resource Key="Dashboard.OrderDetails.PromoApplied" Value="Promo appliquée: {promo}" />
+    <Resource Key="Dashboard.OrderDetails.DeliveryCharges" Value="Frais de livraison" />
+    <Resource Key="Dashboard.OrderDetails.CustomerDetails" Value="Détails du client" />
+    <Resource Key="Dashboard.OrderDetails.FullName" Value="Nom complet" />
+    <Resource Key="Dashboard.OrderDetails.Email" Value="Email" />
+    <Resource Key="Dashboard.OrderDetails.PhoneNumber" Value="Numéro de téléphone" />
+    <Resource Key="Dashboard.OrderDetails.ShippingDetails" Value="Les détails d'expédition" />
+    <Resource Key="Dashboard.OrderDetails.Country" Value="Pays" />
+    <Resource Key="Dashboard.OrderDetails.City" Value="Ville" />
+    <Resource Key="Dashboard.OrderDetails.Address" Value="Adresse" />
+    <Resource Key="Dashboard.OrderDetails.ZipCode" Value="Code postal" />
+    <Resource Key="Dashboard.OrderDetails.OrderHistory" Value="Historique des commandes" />
+    <Resource Key="Dashboard.OrderDetails.Note" Value="Remarque" />
+    <Resource Key="Dashboard.OrderDetails.UpdateStatus" Value="État de mise à jour" />
+    <Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteRequired" Value="Note est nécessaire." />
+    <Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteMaximumLength" Value="Longueur maximale est {max}." />
+    <Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.UnableToUpdateOrderStatus" Value="Données invalides. Impossible de mettre à jour l'état des commandes." />
+    <Resource Key="Dashboard.OrderDetails.GuestOrder" Value="Invité ordre" />
+    <Resource Key="Dashboard.OrderDetails.SeeAllOrdersFromCustomer" Value="Voir toutes les commandes de ce client." />
+    <Resource Key="Dashboard.Comments.Title" Value="commentaires" />
+    <Resource Key="Dashboard.Comments.Description" Value="Commentaires page listant." />
+    <Resource Key="Dashboard.Comments.SearchPlaceholder" Value="Chercher dans les commentaires" />
+    <Resource Key="Dashboard.Comments.Search" Value="Chercher" />
+    <Resource Key="Dashboard.Comments.Reset" Value="Réinitialiser" />
+    <Resource Key="Dashboard.Comments.CommentUserName" Value="{user}" />
+    <Resource Key="Dashboard.Comments.CommentTimestamp" Value="{datetime}" />
+    <Resource Key="Dashboard.Comments.DeleteComment" Value="Supprimer le commentaire" />
+    <Resource Key="Dashboard.Comments.Action.Validation.NotAuthorizedToDeleteComment" Value="Vous n'êtes pas authorzed supprimer ce commentaire." />
+    <Resource Key="Dashboard.Comments.Action.Validation.UnableToDeleteComment" Value="Impossible de supprimer un commentaire." />
+    <Resource Key="Dashboard.Comments.List.NoRecordFound" Value="Aucun commentaire n'a été trouvé." />
+    <Resource Key="Dashboard.Users.Title" Value="Utilisateurs" />
+    <Resource Key="Dashboard.Users.Description" Value="Les utilisateurs page listant." />
+    <Resource Key="Dashboard.Users.SearchPlaceholder" Value="Recherche par Nom d'utilisateur ou e-mail" />
+    <Resource Key="Dashboard.Users.SelectByRole" Value="Sélection par rôle" />
+    <Resource Key="Dashboard.Users.Search" Value="Chercher" />
+    <Resource Key="Dashboard.Users.Reset" Value="Réinitialiser" />
+    <Resource Key="Dashboard.Users.List.RegisteredOn" Value="enregistré sur" />
+    <Resource Key="Dashboard.Users.List.Name" Value="Nom" />
+    <Resource Key="Dashboard.Users.List.Username" Value="Nom d'utilisateur" />
+    <Resource Key="Dashboard.Users.List.Email" Value="Email" />
+    <Resource Key="Dashboard.Users.List.Roles" Value="Les rôles" />
+    <Resource Key="Dashboard.Users.List.Actions" Value="Actions" />
+    <Resource Key="Dashboard.Users.List.MoreDetails" Value="Plus de détails" />
+    <Resource Key="Dashboard.Users.List.NoRecordFound" Value="Aucun utilisateur trouvé." />
+    <Resource Key="Dashboard.UserDetails.Title" Value="Détails de l'utilisateur" />
+    <Resource Key="Dashboard.UserDetails.Description" Value="Détails de l'utilisateur." />
+    <Resource Key="Dashboard.UserDetails.Username" Value="Nom d'utilisateur" />
+    <Resource Key="Dashboard.UserDetails.Location" Value="Emplacement" />
+    <Resource Key="Dashboard.UserDetails.Info" Value="Info" />
+    <Resource Key="Dashboard.UserDetails.Roles" Value="Les rôles" />
+    <Resource Key="Dashboard.UserDetails.Orders" Value="Ordres" />
+    <Resource Key="Dashboard.UserDetails.Comments" Value="commentaires" />
+    <Resource Key="Dashboard.UserDetails.NoUserFound" Value="Aucun utilisateur trouvé." />
+    <Resource Key="Dashboard.UserDetails.Info.FullName" Value="Nom complet" />
+    <Resource Key="Dashboard.UserDetails.Info.PhoneNumber" Value="Numéro de téléphone" />
+    <Resource Key="Dashboard.UserDetails.Info.Country" Value="Pays" />
+    <Resource Key="Dashboard.UserDetails.Info.City" Value="Ville" />
+    <Resource Key="Dashboard.UserDetails.Info.Address" Value="Adresse" />
+    <Resource Key="Dashboard.UserDetails.Info.ZipCode" Value="Code postal" />
+    <Resource Key="Dashboard.UserDetails.Info.Email" Value="Email" />
+    <Resource Key="Dashboard.UserDetails.Info.Username" Value="Nom d'utilisateur" />
+    <Resource Key="Dashboard.UserDetails.Info.Update" Value="Mettre à jour" />
+    <Resource Key="Dashboard.UserDetails.Info.Delete" Value="Effacer" />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameRequired" Value="Nom complet est nécessaire." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameMaximumLength" Value="Longueur maximale est {max}." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.CountryRequired" Value="Pays est nécessaire." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.CityRequired" Value="La ville est requise." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.AddressRequired" Value="Adresse est nécessaire." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.DataNotFormatted" Value="Les données non formatées." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.UserNotFound" Value="Utilisateur non trouvé." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.UnabletoUpdateInfo" Value="Impossible de mettre à jour les informations." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.InfoUpdated" Value="Infos Mise à jour avec succès." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.UnabletoDeleteUser" Value="Impossible de supprimer l'utilisateur." />
+    <Resource Key="Dashboard.UserDetails.Info.Action.Validation.UserDeleted" Value="Utilisateur supprimé avec succès." />
+    <Resource Key="Dashboard.UserDetails.Roles.CurrentUserRoles" Value="Rôles de l'utilisateur en cours" />
+    <Resource Key="Dashboard.UserDetails.Roles.RemoveUserRole" Value="Supprimer Rôle" />
+    <Resource Key="Dashboard.UserDetails.Roles.UserDoesntHaveRoles" Value="L'utilisateur n'a pas de rôle." />
+    <Resource Key="Dashboard.UserDetails.Roles.AssignNewRoles" Value="Affecter un nouveau rôle" />
+    <Resource Key="Dashboard.UserDetails.Roles.SelectRole" Value="Sélectionner un rôle" />
+    <Resource Key="Dashboard.UserDetails.Roles.AssignUserRole" Value="Assigner rôle" />
+    <Resource Key="Dashboard.UserDetails.Roles.Action.Validation.SelectValidRole" Value="S'il vous plaît sélectionner un rôle." />
+    <Resource Key="Dashboard.UserDetails.Orders.SearchByOrderIDPlaceholder" Value="Recherche par ordre ID" />
+    <Resource Key="Dashboard.UserDetails.Orders.SelectByOrderStatus" Value="Sélectionnez par Bestellen ..." />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Placed" Value="Mis" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Processing" Value="En traitement" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Delivered" Value="Livré" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Failed" Value="Échoué" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Cancelled" Value="Annulé" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.OnHold" Value="En attente" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.WaitingForPayment" Value="En attente de paiement" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Refunded" Value="remboursé" />
+    <Resource Key="Dashboard.UserDetails.Orders.Search" Value="Chercher" />
+    <Resource Key="Dashboard.UserDetails.Orders.Reset" Value="Réinitialiser" />
+    <Resource Key="Dashboard.UserDetails.Orders.PlacedOnDate" Value="Placé On Date" />
+    <Resource Key="Dashboard.UserDetails.Orders.OrderAmount" Value="Montant de la commande" />
+    <Resource Key="Dashboard.UserDetails.Orders.PaymentMethod" Value="Mode de paiement" />
+    <Resource Key="Dashboard.UserDetails.Orders.Status" Value="Statut" />
+    <Resource Key="Dashboard.UserDetails.Orders.Actions" Value="Actions" />
+    <Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.CreditCard" Value="Carte de crédit" />
+    <Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.PayPal" Value="Pay Pal" />
+    <Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.CashOnDelivery" Value="Paiement à la livraison" />
+    <Resource Key="Dashboard.UserDetails.Orders.UpdatedOn" Value="Mis à jour le" />
+    <Resource Key="Dashboard.UserDetails.Orders.Details" Value="Détails" />
+    <Resource Key="Dashboard.UserDetails.Orders.Track" Value="Piste" />
+    <Resource Key="Dashboard.UserDetails.Orders.NoOrdersFound" Value="Pas de commande trouvé." />
+    <Resource Key="Dashboard.UserDetails.Comments.SearchCommentsPlaceholder" Value="Chercher dans les commentaires" />
+    <Resource Key="Dashboard.UserDetails.Comments.SearchComments" Value="Chercher" />
+    <Resource Key="Dashboard.UserDetails.Comments.Reset" Value="Réinitialiser" />
+    <Resource Key="Dashboard.UserDetails.Comments.CommentUserName" Value="{user}" />
+    <Resource Key="Dashboard.UserDetails.Comments.CommentTimestamp" Value="{datetime}" />
+    <Resource Key="Dashboard.UserDetails.Comments.DeleteComment" Value="Supprimer le commentaire" />
+    <Resource Key="Dashboard.UserDetails.Comments.NoComments" Value="Aucun commentaire n'a été trouvé." />
+    <Resource Key="Dashboard.Roles.Title" Value="Les rôles" />
+    <Resource Key="Dashboard.Roles.Description" Value="Rôles Liste." />
+    <Resource Key="Dashboard.Roles.SearchPlaceholder" Value="Recherche Rôle" />
+    <Resource Key="Dashboard.Roles.Search" Value="Chercher" />
+    <Resource Key="Dashboard.Roles.Reset" Value="Réinitialiser" />
+    <Resource Key="Dashboard.Roles.CreateRole" Value="Créer un rôle" />
+    <Resource Key="Dashboard.Roles.CreateNewRole" Value="Créer un nouveau rôle" />
+    <Resource Key="Dashboard.Roles.Create.Name" Value="Nom de rôle" />
+    <Resource Key="Dashboard.Roles.Create.NamePlaceholder" Value="Ajouter un nom de rôle" />
+    <Resource Key="Dashboard.Roles.Close" Value="Fermer" />
+    <Resource Key="Dashboard.Roles.Save" Value="sauver" />
+    <Resource Key="Dashboard.Roles.Save.Validations.NameRequired" Value="Nom de rôle est nécessaire." />
+    <Resource Key="Dashboard.Roles.Save.Validations.NameMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="Dashboard.Roles.Save.Validations.NameMaximumLength" Value="Longueur maximale est {max}." />
+    <Resource Key="Dashboard.Roles.Role" Value="Rôle" />
+    <Resource Key="Dashboard.Roles.Users" Value="Utilisateurs" />
+    <Resource Key="Dashboard.Roles.Actions" Value="Actions" />
+    <Resource Key="Dashboard.Roles.MoreDetails" Value="Plus de détails" />
+    <Resource Key="Dashboard.Roles.NoRolesFound" Value="Aucun rôle trouvé." />
+    <Resource Key="Dashboard.RoleDetails.Title" Value="Détails du rôle" />
+    <Resource Key="Dashboard.RoleDetails.Description" Value="Détails du rôle" />
+    <Resource Key="Dashboard.RoleDetails.Info" Value="Info" />
+    <Resource Key="Dashboard.RoleDetails.Users" Value="Utilisateurs" />
+    <Resource Key="Dashboard.RoleDetails.Info.Name" Value="Nom" />
+    <Resource Key="Dashboard.RoleDetails.Info.Update" Value="Mettre à jour" />
+    <Resource Key="Dashboard.RoleDetails.Info.Delete" Value="Effacer" />
+    <Resource Key="Dashboard.RoleDetails.Info.AdministratorRoleNotification" Value="Ce rôle ne peut pas être mis à jour ou supprimé car il est utilisé pour l'autorisation." />
+    <Resource Key="Dashboard.RoleDetails.Info.RoleInfoUpdated" Value="info rôle mis à jour." />
+    <Resource Key="Dashboard.RoleDetails.Users.UsersWithRole" Value="Les utilisateurs ayant ce rôle" />
+    <Resource Key="Dashboard.RoleDetails.Users.MoreDetails" Value="Plus de détails" />
+    <Resource Key="Dashboard.RoleDetails.Users.NoUsersWithRole" Value="Ce rôle ne marche pas avoir tous les utilisateurs." />
+    <Resource Key="Dashboard.Configurations.Title" Value="configurations" />
+    <Resource Key="Dashboard.Configurations.Description" Value="Configurations d'inscription." />
+    <Resource Key="Dashboard.Configurations.SearchPlaceholder" Value="Rechercher Configurations" />
+    <Resource Key="Dashboard.Configurations.SelectByConfigurationType" Value="Sélectionnez par type de configuration" />
+    <Resource Key="Dashboard.Configurations.ConfigurationTypes.Site" Value="Site" />
+    <Resource Key="Dashboard.Configurations.ConfigurationTypes.Sliders" Value="Glissière" />
+    <Resource Key="Dashboard.Configurations.ConfigurationTypes.Promotions" Value="promotions" />
+    <Resource Key="Dashboard.Configurations.ConfigurationTypes.SocialLinks" Value="Liens sociaux" />
+    <Resource Key="Dashboard.Configurations.ConfigurationTypes.Other" Value="Autre" />
+    <Resource Key="Dashboard.Configurations.Search" Value="Chercher" />
+    <Resource Key="Dashboard.Configurations.Reset" Value="Réinitialiser" />
+    <Resource Key="Dashboard.Configurations.List.Key" Value="Clé" />
+    <Resource Key="Dashboard.Configurations.List.Value" Value="Valeur" />
+    <Resource Key="Dashboard.Configurations.List.ConfigurationType" Value="type de configuration" />
+    <Resource Key="Dashboard.Configurations.List.Actions" Value="Actions" />
+    <Resource Key="Dashboard.Configurations.List.Edit" Value="Éditer" />
+    <Resource Key="Dashboard.Configurations.NoConfigurationFound" Value="Aucune configuration trouvée" />
+    <Resource Key="Dashboard.Configurations.EditConfiguration" Value="Modifier la configuration" />
+    <Resource Key="Dashboard.Configurations.UnableToUpdateConfigurations" Value="Impossible de mettre à jour les configurations." />
+    <Resource Key="Dashboard.Configurations.Edit.Value" Value="Valeur" />
+    <Resource Key="Dashboard.Configurations.Edit.SliderPicture" Value="curseur Image" />
+    <Resource Key="Dashboard.Configurations.Edit.Heading" Value="Titre" />
+    <Resource Key="Dashboard.Configurations.Edit.Paragraph" Value="Paragraphe" />
+    <Resource Key="Dashboard.Configurations.Edit.LinkURL" Value="lien URL" />
+    <Resource Key="Dashboard.Configurations.Edit.Close" Value="Fermer" />
+    <Resource Key="Dashboard.Configurations.Edit.Save" Value="sauver" />
+    <Resource Key="Dashboard.Configurations.Edit.Validation.ConfigurationValueRequited" Value="Configuration valeur est requise." />
+    <Resource Key="Dashboard.Configurations.ConfigurationNotFound" Value="Configuration introuvable." />
+    <Resource Key="Dashboard.Languages.Title" Value="langues" />
+    <Resource Key="Dashboard.Languages.Description" Value="Énumération des langues" />
+    <Resource Key="Dashboard.Languages.SearchPlaceholder" Value="Recherche Langues" />
+    <Resource Key="Dashboard.Languages.Search" Value="Chercher" />
+    <Resource Key="Dashboard.Languages.Reset" Value="Réinitialiser" />
+    <Resource Key="Dashboard.Languages.AddLanguage" Value="Ajouter une langue" />
+    <Resource Key="Dashboard.Languages.List.Icon" Value="Icône" />
+    <Resource Key="Dashboard.Languages.List.Name" Value="Nom" />
+    <Resource Key="Dashboard.Languages.List.ShortCode" Value="Petit code" />
+    <Resource Key="Dashboard.Languages.List.Status" Value="Statut" />
+    <Resource Key="Dashboard.Languages.List.Actions" Value="Actions" />
+    <Resource Key="Dashboard.Languages.DefaultSiteLanguage" Value="Langue par défaut du site" />
+    <Resource Key="Dashboard.Languages.LanguageWithoutResources" Value="Cette langue n'a pas de ressources. S'il vous plaît charger des ressources pour faire fonctionner le site dans cette langue." />
+    <Resource Key="Dashboard.Languages.List.Enabled" Value="Activée" />
+    <Resource Key="Dashboard.Languages.List.Disabled" Value="désactivé" />
+    <Resource Key="Dashboard.Languages.List.Edit" Value="Éditer" />
+    <Resource Key="Dashboard.Languages.List.Disable" Value="Désactiver" />
+    <Resource Key="Dashboard.Languages.List.Enable" Value="Activer" />
+    <Resource Key="Dashboard.Languages.ConfirmDisableWarning" Value="Etes-vous sûr de vouloir désactiver cette langue?" />
+    <Resource Key="Dashboard.Languages.ConfirmDisable" Value="Oui, désactivez-le!" />
+    <Resource Key="Dashboard.Languages.ConfirmDisableCancel" Value="Non, Ne pas désactiver." />
+    <Resource Key="Dashboard.Languages.List.NoLanguagesFound" Value="Non Langues trouvé." />
+    <Resource Key="Dashboard.Languages.EditLangaugeTitle" Value="Modifier la langue" />
+    <Resource Key="Dashboard.Languages.EditLanguageDescription" Value="Modifier la langue" />
+    <Resource Key="Dashboard.Languages.CreateLanguageTitle" Value="Créer langue" />
+    <Resource Key="Dashboard.Languages.CreateLanguageDescription" Value="Créer une nouvelle langue" />
+    <Resource Key="Dashboard.Languages.Action.Name" Value="Nom" />
+    <Resource Key="Dashboard.Languages.Action.ShortCode" Value="Petit code" />
+    <Resource Key="Dashboard.Languages.Action.Enabled" Value="Activée" />
+    <Resource Key="Dashboard.Languages.Action.MakeDefault" Value="Marque Langue par défaut" />
+    <Resource Key="Dashboard.Languages.Action.IsRTL" Value="est-RTL" />
+    <Resource Key="Dashboard.Languages.Action.Icon" Value="Icône" />
+    <Resource Key="Dashboard.Languages.Action.SelectLanguageIcon" Value="Sélectionnez la langue Icône" />
+    <Resource Key="Dashboard.Languages.Action.SearchForIcon" Value="Recherche d'icône" />
+    <Resource Key="Dashboard.Languages.Action.SearchIconPlaceholder" Value="Recherche avec Pays Nom court i.e. US ou GB" />
+    <Resource Key="Dashboard.Languages.Action.Update" Value="Mettre à jour" />
+    <Resource Key="Dashboard.Languages.Action.Disable" Value="Désactiver" />
+    <Resource Key="Dashboard.Languages.Action.Enable" Value="Activer" />
+    <Resource Key="Dashboard.Languages.Action.Save" Value="sauver" />
+    <Resource Key="Dashboard.Languages.Action.Cancel" Value="Annuler" />
+    <Resource Key="Dashboard.Languages.Action.Validation.NameRequired" Value="Le nom est requis." />
+    <Resource Key="Dashboard.Languages.Action.Validation.NameMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="Dashboard.Languages.Action.Validation.NameMaximumLength" Value="Longueur maximale est {max}." />
+    <Resource Key="Dashboard.Languages.Action.Validation.ShortCodeRequired" Value="Code de fonction est nécessaire." />
+    <Resource Key="Dashboard.Languages.Action.Validation.ShortCodeMinimumLength" Value="Longueur minimum est {min}." />
+    <Resource Key="Dashboard.Languages.Action.Validation.ShortCodeMaximumLength" Value="Longueur maximale est {max}." />
+    <Resource Key="Dashboard.Languages.Action.ImportResources" Value="Ressources importation" />
+    <Resource Key="Dashboard.Languages.Action.ChooseFile" Value="Choisir le fichier" />
+    <Resource Key="Dashboard.Languages.Action.Import" Value="Importer" />
+    <Resource Key="Dashboard.Languages.Action.ExportResources" Value="Ressources d'exportation" />
+    <Resource Key="Dashboard.Languages.Action.ExportLanguageResources" Value="Ressources linguistiques exportation" />
+    <Resource Key="Dashboard.Languages.Action.Export" Value="Exportation" />
+    <Resource Key="Dashboard.Languages.Action.ExportNoResourcesWarning" Value="Cette langue n'a pas de ressources. S'il vous plaît importer le pack de langue." />
+    <Resource Key="Dashboard.Languages.Action.ResourcesImportedSuccess" Value="Des ressources ont été importées avec succès." />
+    <Resource Key="Dashboard.Languages.Action.ResourcesExportingWarning" Value="Préparation du fichier de ressources peut prendre un certain temps. S'il vous plaît patienter pendant que le système génère le fichier de téléchargement." />
+    <Resource Key="Dashboard.Languages.Action.Validation.SelectFileToUpload" Value="S'il vous plaît sélectionner un fichier à télécharger." />
+    <Resource Key="Dashboard.Languages.Action.Validation.SelectValidFileToUpload" Value="S'il vous plaît télécharger un fichier au format correct." />
+    <Resource Key="Dashboard.Languages.Action.Validation.LanguageNotFound" Value="Langue introuvable." />
+    <Resource Key="Dashboard.Languages.Action.Validation.DefaultLanguageIsMust" Value="Il doit y avoir une langue par défaut. S'il vous plaît définir une autre langue par défaut, puis mettre à jour cette langue." />
+    <Resource Key="Dashboard.Languages.Action.Validation.UnableToUpdateLanguage" Value="Impossible de mettre à jour la langue." />
+    <Resource Key="Dashboard.Languages.Action.Validation.UnableToCreateLanguage" Value="Impossible de créer la langue." />
+    <Resource Key="Dashboard.Languages.Action.Validation.DefaultLanguageCantBeDisabled" Value="La langue par défaut ne peut pas être désactivé." />
+    <Resource Key="Dashboard.Languages.Action.Validation.NoResourcesInFile" Value="Aucune ressource trouvée dans le fichier." />
+    <Resource Key="Dashboard.Languages.Action.Validation.UnableToImportResources" Value="Impossible de ressources à l'importation." />
+    <Resource Key="Dashboard.NewsletterSubscribers.Title" Value="Les abonnés Newsletter" />
+    <Resource Key="Dashboard.NewsletterSubscribers.Description" Value="Bulletin liste d'abonnés" />
+    <Resource Key="Dashboard.NewsletterSubscribers.SearchPlaceholder" Value="Recherche par email." />
+    <Resource Key="Dashboard.NewsletterSubscribers.Search" Value="Chercher" />
+    <Resource Key="Dashboard.NewsletterSubscribers.Reset" Value="Réinitialiser" />
+    <Resource Key="Dashboard.NewsletterSubscribers.List.Email" Value="Email" />
+    <Resource Key="Dashboard.NewsletterSubscribers.List.UserID" Value="Identifiant d'utilisateur" />
+    <Resource Key="Dashboard.NewsletterSubscribers.List.IsVerified" Value="Email verifié" />
+    <Resource Key="Dashboard.NewsletterSubscribers.NoRecordFound" Value="Aucun Enregistrement Trouvé." />
+</Language>

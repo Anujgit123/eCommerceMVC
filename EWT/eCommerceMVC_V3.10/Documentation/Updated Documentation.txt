@@ -1,0 +1,6 @@
+The documentation may have been updated.
+You can check the updated documentation on the following link:
+
+Site Documentation : https://sajjadarifgul.github.io/eCommerceMVCDocs/
+
+API Documentation: https://documenter.getpostman.com/view/1150492/Tz5iA1oN
